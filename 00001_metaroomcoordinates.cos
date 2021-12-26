@@ -1,3 +1,6 @@
+** Set the map dimensions
+mapd 100000 100000
+**
 
 
 
