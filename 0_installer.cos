@@ -1,0 +1,36 @@
+*
+* ====== CAOS2PRAY CHUNK ======
+*
+
+** To create the agents file:
+** Open Monk
+** Deselect "merge scripts"
+** Drop this file on Monk
+** Profit!
+
+*# Pray-File "spacemossship.agents"
+*# DS-Name "SpaceMossShip"
+*# desc = "This is the SpaceMossShip"
+*# Agent Animation File = "betaship_fav.c16"
+*# Agent Sprite First Image = 1
+*# Agent Animation Gallery = "betaship_fav"
+*# Web URL = "http://creaturescaves.com/"
+*# Web Label = "Pilla from Creatures Caves"
+
+*# depend blnk.c16
+*# depend useful_screen.c16
+
+*# attach subbiome1.blk
+*# attach subbiome2.blk
+*# attach smb_main.blk
+
+*# attach betaship_eledoor.c16
+*# attach betaship_fav.c16
+*# attach spacemossship.catalogue
+
+
+*# link 00001_metaroomcoordinates.cos 36475_eledoor.cos 36475_signpost_main.cos 36476_signpost_subbiome1.cos 36477_signpost_subbiome2.cos 999999_eledoor_install.cos
+*# link 36478_dialog.cos
+
+
+
