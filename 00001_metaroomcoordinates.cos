@@ -16,291 +16,291 @@
 
 
 
-setv game "mapeditortmp" addm 29731 7959 9216 4232 "Complete"
+setv game "mapeditortmp" addm 29731 7959 9216 4232 "smb_main"
 mmsc 34339 10075 ""
-  setv va00 addr game "mapeditortmp" 35908 36114 8957 9074 9264 9262
-    rtyp va00 5
-    rmsc 36011 9109 ""
+  setv va00 addr game "mapeditortmp" 35756 36058 11722 11752 12048 11975
+    rtyp va00 0
+    rmsc 35907 11848 ""
     setv game "mapeditortmp_600" va00
-  setv va00 addr game "mapeditortmp" 35552 35908 8885 8957 9267 9264
+  setv va00 addr game "mapeditortmp" 35908 36110 8957 9074 9288 9280
     rtyp va00 5
-    rmsc 35730 9074 ""
+    rmsc 36009 9118 ""
     setv game "mapeditortmp_601" va00
-  setv va00 addr game "mapeditortmp" 35216 35552 8831 8885 9281 9267
+  setv va00 addr game "mapeditortmp" 35552 35908 8885 8957 9287 9288
     rtyp va00 5
-    rmsc 35384 9049 ""
+    rmsc 35730 9086 ""
     setv game "mapeditortmp_602" va00
-  setv va00 addr game "mapeditortmp" 34990 35216 8811 8831 9296 9281
+  setv va00 addr game "mapeditortmp" 35216 35552 8831 8885 9297 9287
     rtyp va00 5
-    rmsc 35103 9046 ""
+    rmsc 35384 9059 ""
     setv game "mapeditortmp_603" va00
+  setv va00 addr game "mapeditortmp" 34990 35216 8811 8831 9296 9297
+    rtyp va00 5
+    rmsc 35103 9054 ""
+    setv game "mapeditortmp_604" va00
   setv va00 addr game "mapeditortmp" 34748 34990 8799 8811 9296 9296
     rtyp va00 5
     rmsc 34869 9047 ""
-    setv game "mapeditortmp_604" va00
-  setv va00 addr game "mapeditortmp" 35564 35772 9314 9321 9569 9569
-    rtyp va00 5
-    rmsc 35668 9441 ""
     setv game "mapeditortmp_605" va00
-  setv va00 addr game "mapeditortmp" 35772 35975 9321 9329 9569 9583
+  setv va00 addr game "mapeditortmp" 35552 35772 9314 9321 9589 9589
+    rtyp va00 5
+    rmsc 35662 9451 ""
+    setv game "mapeditortmp_606" va00
+  setv va00 addr game "mapeditortmp" 35772 35975 9321 9329 9589 9583
     rtyp va00 5
     rmsc 35873 9452 ""
-    setv game "mapeditortmp_606" va00
+    setv game "mapeditortmp_607" va00
   setv va00 addr game "mapeditortmp" 35975 36153 9316 9321 9583 9593
     rtyp va00 5
     rmsc 36064 9454 ""
-    setv game "mapeditortmp_607" va00
-  setv va00 addr game "mapeditortmp" 35992 36153 9584 9593 9878 9876
-    rtyp va00 5
-    rmsc 36072 9730 ""
     setv game "mapeditortmp_608" va00
-  setv va00 addr game "mapeditortmp" 35792 35992 9608 9616 9873 9878
+  setv va00 addr game "mapeditortmp" 35992 36153 9584 9593 9892 9902
     rtyp va00 5
-    rmsc 35892 9743 ""
+    rmsc 36072 9743 ""
     setv game "mapeditortmp_609" va00
+  setv va00 addr game "mapeditortmp" 35792 35992 9608 9616 9873 9892
+    rtyp va00 5
+    rmsc 35892 9750 ""
+    setv game "mapeditortmp_610" va00
   setv va00 addr game "mapeditortmp" 35559 35792 9603 9608 9873 9873
     rtyp va00 5
     rmsc 35675 9738 ""
-    setv game "mapeditortmp_610" va00
+    setv game "mapeditortmp_611" va00
   setv va00 addr game "mapeditortmp" 35500 35559 9601 9603 9878 9873
     rtyp va00 5
     rmsc 35529 9737 ""
-    setv game "mapeditortmp_611" va00
+    setv game "mapeditortmp_612" va00
   setv va00 addr game "mapeditortmp" 35193 35500 9329 9324 9893 9878
     rtyp va00 5
     rmsc 35346 9603 ""
-    setv game "mapeditortmp_612" va00
+    setv game "mapeditortmp_613" va00
   setv va00 addr game "mapeditortmp" 34914 35193 9336 9329 9895 9893
     rtyp va00 5
     rmsc 35053 9614 ""
-    setv game "mapeditortmp_613" va00
+    setv game "mapeditortmp_614" va00
   setv va00 addr game "mapeditortmp" 34664 34914 9321 9336 9913 9895
     rtyp va00 5
     rmsc 34789 9608 ""
-    setv game "mapeditortmp_614" va00
+    setv game "mapeditortmp_615" va00
   setv va00 addr game "mapeditortmp" 34664 34748 8794 8799 9321 9326
     rtyp va00 0
     rmsc 34706 9060 ""
-    setv game "mapeditortmp_615" va00
-  setv va00 addr game "mapeditortmp" 31725 31829 9057 9020 9299 9302
+    setv game "mapeditortmp_616" va00
+  setv va00 addr game "mapeditortmp" 31725 31829 9057 9020 9310 9302
     rtyp va00 1
     rmsc 31777 9179 ""
-    setv game "mapeditortmp_616" va00
+    setv game "mapeditortmp_617" va00
   setv va00 addr game "mapeditortmp" 31829 32030 9020 8975 9302 9302
     rtyp va00 1
     rmsc 31929 9161 ""
-    setv game "mapeditortmp_617" va00
-  setv va00 addr game "mapeditortmp" 32030 32294 8975 8928 9302 9297
-    rtyp va00 1
-    rmsc 32162 9136 ""
     setv game "mapeditortmp_618" va00
-  setv va00 addr game "mapeditortmp" 32294 32599 8928 8879 9297 9287
+  setv va00 addr game "mapeditortmp" 32030 32294 8975 8928 9302 9303
     rtyp va00 1
-    rmsc 32446 9107 ""
+    rmsc 32162 9139 ""
     setv game "mapeditortmp_619" va00
-  setv va00 addr game "mapeditortmp" 31108 31321 9324 9240 9510 9510
+  setv va00 addr game "mapeditortmp" 32294 32650 8928 8879 9303 9305
     rtyp va00 1
-    rmsc 31214 9417 ""
+    rmsc 32472 9116 ""
     setv game "mapeditortmp_620" va00
-  setv va00 addr game "mapeditortmp" 31321 31553 9240 9119 9510 9520
+  setv va00 addr game "mapeditortmp" 31095 31321 9343 9240 9522 9524
     rtyp va00 1
-    rmsc 31437 9380 ""
+    rmsc 31208 9433 ""
     setv game "mapeditortmp_621" va00
-  setv va00 addr game "mapeditortmp" 31553 31825 9307 9322 9520 9534
+  setv va00 addr game "mapeditortmp" 31321 31553 9240 9119 9524 9530
     rtyp va00 1
-    rmsc 31689 9420 ""
+    rmsc 31437 9385 ""
     setv game "mapeditortmp_622" va00
-  setv va00 addr game "mapeditortmp" 31825 32023 9322 9317 9534 9547
+  setv va00 addr game "mapeditortmp" 31553 31836 9307 9322 9530 9546
     rtyp va00 1
-    rmsc 31924 9434 ""
+    rmsc 31694 9426 ""
     setv game "mapeditortmp_623" va00
+  setv va00 addr game "mapeditortmp" 31836 32023 9332 9317 9546 9547
+    rtyp va00 1
+    rmsc 31929 9439 ""
+    setv game "mapeditortmp_624" va00
   setv va00 addr game "mapeditortmp" 30701 30891 9609 9460 9891 9888
     rtyp va00 1
     rmsc 30796 9748 ""
-    setv game "mapeditortmp_624" va00
-  setv va00 addr game "mapeditortmp" 30891 31108 9460 9324 9888 9891
-    rtyp va00 1
-    rmsc 30999 9675 ""
     setv game "mapeditortmp_625" va00
-  setv va00 addr game "mapeditortmp" 31108 31374 9525 9537 9891 9896
+  setv va00 addr game "mapeditortmp" 30891 31095 9460 9343 9888 9891
     rtyp va00 1
-    rmsc 31241 9710 ""
+    rmsc 30993 9675 ""
     setv game "mapeditortmp_626" va00
-  setv va00 addr game "mapeditortmp" 31374 31545 9537 9542 9896 9903
+  setv va00 addr game "mapeditortmp" 31095 31374 9533 9537 9891 9910
     rtyp va00 1
-    rmsc 31459 9720 ""
+    rmsc 31234 9721 ""
     setv game "mapeditortmp_627" va00
-  setv va00 addr game "mapeditortmp" 30498 30691 9760 9614 10151 10148
+  setv va00 addr game "mapeditortmp" 31374 31599 9537 9542 9910 9912
     rtyp va00 1
-    rmsc 30594 9954 ""
+    rmsc 31486 9724 ""
     setv game "mapeditortmp_628" va00
-  setv va00 addr game "mapeditortmp" 30691 31005 9903 9908 10148 10141
+  setv va00 addr game "mapeditortmp" 30485 30691 9760 9613 10178 10165
     rtyp va00 1
-    rmsc 30848 10022 ""
+    rmsc 30588 9962 ""
     setv game "mapeditortmp_629" va00
-  setv va00 addr game "mapeditortmp" 31005 31282 9908 9918 10141 10158
+  setv va00 addr game "mapeditortmp" 30691 31005 9903 9908 10165 10169
     rtyp va00 1
-    rmsc 31143 10033 ""
+    rmsc 30848 10036 ""
     setv game "mapeditortmp_630" va00
-  setv va00 addr game "mapeditortmp" 31282 31545 9918 9928 10158 10180
+  setv va00 addr game "mapeditortmp" 31005 31282 9908 9918 10169 10172
     rtyp va00 1
-    rmsc 31413 10049 ""
+    rmsc 31143 10040 ""
     setv game "mapeditortmp_631" va00
-  setv va00 addr game "mapeditortmp" 31545 31799 9928 9928 10180 10183
+  setv va00 addr game "mapeditortmp" 31282 31599 9918 9918 10172 10180
     rtyp va00 1
-    rmsc 31672 10055 ""
+    rmsc 31440 10049 ""
     setv game "mapeditortmp_632" va00
-  setv va00 addr game "mapeditortmp" 31545 31799 9542 9559 9928 9928
-    rtyp va00 0
-    rmsc 31672 9735 ""
+  setv va00 addr game "mapeditortmp" 31599 31799 9912 9928 10180 10196
+    rtyp va00 1
+    rmsc 31699 10054 ""
     setv game "mapeditortmp_633" va00
+  setv va00 addr game "mapeditortmp" 31599 31799 9542 9559 9912 9928
+    rtyp va00 0
+    rmsc 31699 9735 ""
+    setv game "mapeditortmp_634" va00
   setv va00 addr game "mapeditortmp" 31553 31725 9119 9057 9307 9316
     rtyp va00 0
     rmsc 31639 9217 ""
-    setv game "mapeditortmp_634" va00
-  setv va00 addr game "mapeditortmp" 32023 32247 9920 9804 10178 10180
-    rtyp va00 1
-    rmsc 32135 10050 ""
     setv game "mapeditortmp_635" va00
-  setv va00 addr game "mapeditortmp" 31799 32023 9928 9920 10183 10178
+  setv va00 addr game "mapeditortmp" 32023 32247 9920 9804 10202 10201
     rtyp va00 1
-    rmsc 31911 10053 ""
+    rmsc 32135 10060 ""
     setv game "mapeditortmp_636" va00
-  setv va00 addr game "mapeditortmp" 32247 32537 9804 9807 10180 10180
+  setv va00 addr game "mapeditortmp" 31799 32023 9928 9920 10196 10202
     rtyp va00 1
-    rmsc 32392 9992 ""
+    rmsc 31911 10065 ""
     setv game "mapeditortmp_637" va00
-  setv va00 addr game "mapeditortmp" 32537 32809 9807 9817 10180 10185
+  setv va00 addr game "mapeditortmp" 32247 32537 9804 9807 10201 10203
     rtyp va00 1
-    rmsc 32673 9996 ""
+    rmsc 32392 10003 ""
     setv game "mapeditortmp_638" va00
+  setv va00 addr game "mapeditortmp" 32537 32809 9807 9817 10203 10208
+    rtyp va00 1
+    rmsc 32673 10007 ""
+    setv game "mapeditortmp_639" va00
   setv va00 addr game "mapeditortmp" 32023 32247 9317 9312 9920 9804
     rtyp va00 0
     rmsc 32135 9560 ""
-    setv game "mapeditortmp_639" va00
+    setv game "mapeditortmp_640" va00
   setv va00 addr game "mapeditortmp" 31799 32023 9559 9577 9928 9920
     rtyp va00 1
     rmsc 31911 9739 ""
-    setv game "mapeditortmp_640" va00
+    setv game "mapeditortmp_641" va00
   setv va00 addr game "mapeditortmp" 32247 32537 9653 9653 9804 9807
     rtyp va00 1
     rmsc 32392 9730 ""
-    setv game "mapeditortmp_641" va00
+    setv game "mapeditortmp_642" va00
   setv va00 addr game "mapeditortmp" 32537 32809 9653 9653 9807 9817
     rtyp va00 1
     rmsc 32673 9735 ""
-    setv game "mapeditortmp_642" va00
-  setv va00 addr game "mapeditortmp" 32599 32809 8879 8849 9653 9653
-    rtyp va00 0
-    rmsc 32704 9266 ""
     setv game "mapeditortmp_643" va00
-  setv va00 addr game "mapeditortmp" 32247 32599 9312 9297 9653 9653
+  setv va00 addr game "mapeditortmp" 32650 32809 8879 8849 9653 9653
     rtyp va00 0
-    rmsc 32423 9482 ""
+    rmsc 32729 9266 ""
     setv game "mapeditortmp_644" va00
-  setv va00 addr game "mapeditortmp" 32809 33117 9653 9653 10185 10178
-    rtyp va00 1
-    rmsc 32963 9915 ""
+  setv va00 addr game "mapeditortmp" 32247 32650 9312 9313 9653 9653
+    rtyp va00 0
+    rmsc 32448 9482 ""
     setv game "mapeditortmp_645" va00
+  setv va00 addr game "mapeditortmp" 32809 33117 9653 9653 10208 10211
+    rtyp va00 1
+    rmsc 32963 9932 ""
+    setv game "mapeditortmp_646" va00
   setv va00 addr game "mapeditortmp" 32809 33820 8849 8777 9653 9653
     rtyp va00 0
     rmsc 33314 9251 ""
-    setv game "mapeditortmp_646" va00
+    setv game "mapeditortmp_647" va00
   setv va00 addr game "mapeditortmp" 33820 34664 8777 8794 9653 9658
     rtyp va00 0
     rmsc 34242 9217 ""
-    setv game "mapeditortmp_647" va00
-  setv va00 addr game "mapeditortmp" 33117 33312 9653 9653 10178 10179
-    rtyp va00 1
-    rmsc 33214 9916 ""
     setv game "mapeditortmp_648" va00
-  setv va00 addr game "mapeditortmp" 33436 33750 9653 9653 10075 10080
+  setv va00 addr game "mapeditortmp" 33117 33312 9653 9653 10211 10212
+    rtyp va00 1
+    rmsc 33214 9932 ""
+    setv game "mapeditortmp_649" va00
+  setv va00 addr game "mapeditortmp" 33436 33750 9653 9653 10089 10080
     rtyp va00 5
     rmsc 33593 9866 ""
-    setv game "mapeditortmp_649" va00
-  setv va00 addr game "mapeditortmp" 33750 34107 9653 9655 10080 10083
-    rtyp va00 5
-    rmsc 33928 9868 ""
     setv game "mapeditortmp_650" va00
-  setv va00 addr game "mapeditortmp" 34107 34399 9655 9656 10083 10095
+  setv va00 addr game "mapeditortmp" 33750 34107 9653 9655 10080 10092
     rtyp va00 5
-    rmsc 34253 9875 ""
+    rmsc 33928 9872 ""
     setv game "mapeditortmp_651" va00
+  setv va00 addr game "mapeditortmp" 34107 34504 9655 9657 10092 10131
+    rtyp va00 5
+    rmsc 34305 9893 ""
+    setv game "mapeditortmp_652" va00
   setv va00 addr game "mapeditortmp" 32617 32860 10224 10221 10464 10451
     rtyp va00 5
     rmsc 32738 10337 ""
-    setv game "mapeditortmp_652" va00
-  setv va00 addr game "mapeditortmp" 32860 33107 10211 10209 10451 10446
-    rtyp va00 5
-    rmsc 32983 10328 ""
     setv game "mapeditortmp_653" va00
+  setv va00 addr game "mapeditortmp" 32860 33107 10231 10230 10451 10446
+    rtyp va00 5
+    rmsc 32983 10338 ""
+    setv game "mapeditortmp_654" va00
   setv va00 addr game "mapeditortmp" 33312 33436 9653 9653 10444 10437
     rtyp va00 5
     rmsc 33374 10045 ""
-    setv game "mapeditortmp_654" va00
-  setv va00 addr game "mapeditortmp" 33107 33312 10209 10204 10446 10444
-    rtyp va00 5
-    rmsc 33209 10326 ""
     setv game "mapeditortmp_655" va00
-  setv va00 addr game "mapeditortmp" 33436 33736 10090 10120 10437 10399
+  setv va00 addr game "mapeditortmp" 33107 33312 10230 10227 10446 10444
     rtyp va00 5
-    rmsc 33586 10244 ""
+    rmsc 33209 10337 ""
     setv game "mapeditortmp_656" va00
+  setv va00 addr game "mapeditortmp" 33436 33736 10104 10120 10437 10399
+    rtyp va00 5
+    rmsc 33586 10251 ""
+    setv game "mapeditortmp_657" va00
   setv va00 addr game "mapeditortmp" 33736 34008 10120 10115 10399 10434
     rtyp va00 5
     rmsc 33872 10277 ""
-    setv game "mapeditortmp_657" va00
-  setv va00 addr game "mapeditortmp" 34008 34164 10115 10130 10434 10449
-    rtyp va00 5
-    rmsc 34086 10282 ""
     setv game "mapeditortmp_658" va00
-  setv va00 addr game "mapeditortmp" 34752 34945 9934 9927 10194 10184
+  setv va00 addr game "mapeditortmp" 34008 34339 10115 10149 10434 10462
     rtyp va00 5
-    rmsc 34848 10059 ""
+    rmsc 34173 10288 ""
     setv game "mapeditortmp_659" va00
-  setv va00 addr game "mapeditortmp" 34945 35215 9927 9927 10184 10172
+  setv va00 addr game "mapeditortmp" 34752 34945 9934 9927 10217 10220
     rtyp va00 5
-    rmsc 35080 10049 ""
+    rmsc 34848 10077 ""
     setv game "mapeditortmp_660" va00
-  setv va00 addr game "mapeditortmp" 35215 35477 9927 9939 10172 10189
+  setv va00 addr game "mapeditortmp" 34945 35215 9927 9927 10220 10227
     rtyp va00 5
-    rmsc 35346 10058 ""
+    rmsc 35080 10077 ""
     setv game "mapeditortmp_661" va00
-  setv va00 addr game "mapeditortmp" 35477 35671 9939 9954 10189 10191
+  setv va00 addr game "mapeditortmp" 35215 35477 9927 9939 10227 10223
     rtyp va00 5
-    rmsc 35574 10065 ""
+    rmsc 35346 10075 ""
     setv game "mapeditortmp_662" va00
+  setv va00 addr game "mapeditortmp" 35477 35698 9939 9954 10223 10210
+    rtyp va00 5
+    rmsc 35587 10074 ""
+    setv game "mapeditortmp_663" va00
   setv va00 addr game "mapeditortmp" 34530 34664 9657 9658 10459 10464
     rtyp va00 5
     rmsc 34597 10060 ""
-    setv game "mapeditortmp_663" va00
-  setv va00 addr game "mapeditortmp" 34399 34530 9656 9657 10815 10818
-    rtyp va00 5
-    rmsc 34464 10237 ""
     setv game "mapeditortmp_664" va00
+  setv va00 addr game "mapeditortmp" 34504 34530 9665 9657 10815 10818
+    rtyp va00 5
+    rmsc 34517 10241 ""
+    setv game "mapeditortmp_665" va00
   setv va00 addr game "mapeditortmp" 34664 34752 9934 9934 10464 10459
     rtyp va00 5
     rmsc 34708 10196 ""
-    setv game "mapeditortmp_665" va00
-  setv va00 addr game "mapeditortmp" 34752 34953 10234 10229 10459 10479
-    rtyp va00 5
-    rmsc 34852 10356 ""
     setv game "mapeditortmp_666" va00
-  setv va00 addr game "mapeditortmp" 34953 35223 10229 10226 10479 10469
+  setv va00 addr game "mapeditortmp" 34752 34953 10234 10250 10459 10460
+    rtyp va00 5
+    rmsc 34852 10347 ""
+    setv game "mapeditortmp_667" va00
+  setv va00 addr game "mapeditortmp" 34953 35223 10229 10246 10460 10469
     rtyp va00 5
     rmsc 35088 10349 ""
-    setv game "mapeditortmp_667" va00
-  setv va00 addr game "mapeditortmp" 35223 35477 10226 10234 10469 10479
-    rtyp va00 5
-    rmsc 35350 10352 ""
     setv game "mapeditortmp_668" va00
-  setv va00 addr game "mapeditortmp" 35671 35698 9954 9954 10465 10459
+  setv va00 addr game "mapeditortmp" 35223 35477 10246 10242 10469 10479
     rtyp va00 5
-    rmsc 35684 10206 ""
+    rmsc 35350 10362 ""
     setv game "mapeditortmp_669" va00
-  setv va00 addr game "mapeditortmp" 35477 35671 10234 10212 10479 10465
+  setv va00 addr game "mapeditortmp" 35477 35698 10242 10231 10479 10463
     rtyp va00 5
-    rmsc 35574 10349 ""
+    rmsc 35587 10352 ""
     setv game "mapeditortmp_670" va00
   setv va00 addr game "mapeditortmp" 35698 35851 9954 9986 10803 10805
     rtyp va00 5
@@ -330,15 +330,15 @@ mmsc 34339 10075 ""
     rtyp va00 5
     rmsc 37318 10225 ""
     setv game "mapeditortmp_677" va00
-  setv va00 addr game "mapeditortmp" 34530 34806 10497 10495 10818 10747
+  setv va00 addr game "mapeditortmp" 34530 34806 10497 10495 10818 10756
     rtyp va00 5
-    rmsc 34668 10622 ""
+    rmsc 34668 10626 ""
     setv game "mapeditortmp_678" va00
-  setv va00 addr game "mapeditortmp" 34806 35127 10495 10504 10747 10747
+  setv va00 addr game "mapeditortmp" 34806 35127 10495 10504 10756 10762
     rtyp va00 5
-    rmsc 34966 10621 ""
+    rmsc 34966 10628 ""
     setv game "mapeditortmp_679" va00
-  setv va00 addr game "mapeditortmp" 35127 35333 10504 10509 10747 10814
+  setv va00 addr game "mapeditortmp" 35127 35333 10504 10509 10762 10814
     rtyp va00 5
     rmsc 35230 10659 ""
     setv game "mapeditortmp_680" va00
@@ -358,11 +358,11 @@ mmsc 34339 10075 ""
     rtyp va00 5
     rmsc 36264 10650 ""
     setv game "mapeditortmp_684" va00
-  setv va00 addr game "mapeditortmp" 36372 36681 10497 10497 10797 10772
+  setv va00 addr game "mapeditortmp" 36372 36681 10497 10497 10797 10794
     rtyp va00 5
-    rmsc 36526 10634 ""
+    rmsc 36526 10645 ""
     setv game "mapeditortmp_685" va00
-  setv va00 addr game "mapeditortmp" 36681 36993 10497 10492 10772 10782
+  setv va00 addr game "mapeditortmp" 36681 36993 10497 10492 10794 10782
     rtyp va00 5
     rmsc 36837 10639 ""
     setv game "mapeditortmp_686" va00
@@ -394,13 +394,13 @@ mmsc 34339 10075 ""
     rtyp va00 5
     rmsc 37397 10957 ""
     setv game "mapeditortmp_693" va00
-  setv va00 addr game "mapeditortmp" 34164 34399 10130 10139 10800 10815
+  setv va00 addr game "mapeditortmp" 34339 34504 10149 10153 10800 10815
     rtyp va00 5
-    rmsc 34281 10472 ""
+    rmsc 34421 10482 ""
     setv game "mapeditortmp_694" va00
-  setv va00 addr game "mapeditortmp" 33864 34164 10469 10479 10803 10800
+  setv va00 addr game "mapeditortmp" 33864 34339 10469 10501 10803 10800
     rtyp va00 5
-    rmsc 34014 10634 ""
+    rmsc 34101 10634 ""
     setv game "mapeditortmp_695" va00
   setv va00 addr game "mapeditortmp" 33580 33864 10464 10469 10828 10803
     rtyp va00 5
@@ -430,45 +430,45 @@ mmsc 34339 10075 ""
     rtyp va00 7
     rmsc 31664 10608 ""
     setv game "mapeditortmp_702" va00
-  setv va00 addr game "mapeditortmp" 30210 30498 10018 9760 10439 10421
+  setv va00 addr game "mapeditortmp" 30210 30485 10018 9760 10452 10442
     rtyp va00 1
-    rmsc 30354 10219 ""
+    rmsc 30347 10230 ""
     setv game "mapeditortmp_703" va00
-  setv va00 addr game "mapeditortmp" 30498 30695 10176 10174 10421 10424
+  setv va00 addr game "mapeditortmp" 30485 30695 10183 10174 10442 10440
     rtyp va00 1
-    rmsc 30596 10300 ""
+    rmsc 30590 10311 ""
     setv game "mapeditortmp_704" va00
-  setv va00 addr game "mapeditortmp" 30695 30902 10174 10161 10424 10426
+  setv va00 addr game "mapeditortmp" 30695 30902 10174 10177 10440 10451
     rtyp va00 1
-    rmsc 30798 10300 ""
+    rmsc 30798 10312 ""
     setv game "mapeditortmp_705" va00
-  setv va00 addr game "mapeditortmp" 30902 31172 10161 10176 10426 10436
+  setv va00 addr game "mapeditortmp" 30902 31172 10177 10176 10451 10448
     rtyp va00 1
-    rmsc 31037 10298 ""
+    rmsc 31037 10312 ""
     setv game "mapeditortmp_706" va00
-  setv va00 addr game "mapeditortmp" 31172 31382 10176 10189 10436 10451
+  setv va00 addr game "mapeditortmp" 31172 31382 10176 10189 10448 10451
     rtyp va00 1
     rmsc 31277 10313 ""
     setv game "mapeditortmp_707" va00
-  setv va00 addr game "mapeditortmp" 31382 31501 10189 10208 10451 10466
+  setv va00 addr game "mapeditortmp" 31382 31548 10189 10205 10451 10446
     rtyp va00 1
-    rmsc 31441 10327 ""
+    rmsc 31465 10317 ""
     setv game "mapeditortmp_708" va00
-  setv va00 addr game "mapeditortmp" 31501 31608 10208 10211 11030 11038
+  setv va00 addr game "mapeditortmp" 31548 31608 10205 10211 11030 11038
     rtyp va00 7
-    rmsc 31554 10623 ""
+    rmsc 31578 10621 ""
     setv game "mapeditortmp_709" va00
-  setv va00 addr game "mapeditortmp" 31288 31501 10473 10483 11020 11030
+  setv va00 addr game "mapeditortmp" 31288 31548 10473 10457 11020 11030
     rtyp va00 7
-    rmsc 31394 10751 ""
+    rmsc 31418 10751 ""
     setv game "mapeditortmp_710" va00
   setv va00 addr game "mapeditortmp" 30593 31288 10449 10473 10991 11020
     rtyp va00 7
     rmsc 30940 10734 ""
     setv game "mapeditortmp_711" va00
-  setv va00 addr game "mapeditortmp" 30529 30593 10446 10449 10981 10991
+  setv va00 addr game "mapeditortmp" 30529 30593 10459 10449 10981 10991
     rtyp va00 7
-    rmsc 30561 10718 ""
+    rmsc 30561 10725 ""
     setv game "mapeditortmp_712" va00
   setv va00 addr game "mapeditortmp" 29957 30210 10283 10018 10946 10958
     rtyp va00 7
@@ -478,9 +478,9 @@ mmsc 34339 10075 ""
     rtyp va00 0
     rmsc 29914 10680 ""
     setv game "mapeditortmp_714" va00
-  setv va00 addr game "mapeditortmp" 30210 30529 10451 10446 10958 10981
+  setv va00 addr game "mapeditortmp" 30210 30529 10462 10459 10958 10981
     rtyp va00 7
-    rmsc 30369 10716 ""
+    rmsc 30369 10721 ""
     setv game "mapeditortmp_715" va00
   setv va00 addr game "mapeditortmp" 30328 30593 11045 10996 11288 11305
     rtyp va00 9
@@ -526,9 +526,9 @@ mmsc 34339 10075 ""
     rtyp va00 9
     rmsc 32786 11502 ""
     setv game "mapeditortmp_726" va00
-  setv va00 addr game "mapeditortmp" 32815 33340 11429 11439 11661 11661
+  setv va00 addr game "mapeditortmp" 32815 33340 11429 11439 11661 11685
     rtyp va00 9
-    rmsc 33077 11545 ""
+    rmsc 33077 11557 ""
     setv game "mapeditortmp_727" va00
   setv va00 addr game "mapeditortmp" 32835 33033 11243 11186 11429 11433
     rtyp va00 6
@@ -542,35 +542,35 @@ mmsc 34339 10075 ""
     rtyp va00 6
     rmsc 33244 11318 ""
     setv game "mapeditortmp_730" va00
-  setv va00 addr game "mapeditortmp" 30275 30362 11378 11361 11616 11682
+  setv va00 addr game "mapeditortmp" 30259 30320 11378 11361 11500 11614
     rtyp va00 6
-    rmsc 30318 11530 ""
+    rmsc 30289 11496 ""
     setv game "mapeditortmp_731" va00
-  setv va00 addr game "mapeditortmp" 30362 30631 11361 11363 11682 11697
+  setv va00 addr game "mapeditortmp" 30320 30631 11361 11363 11664 11683
     rtyp va00 6
-    rmsc 30496 11529 ""
+    rmsc 30475 11522 ""
     setv game "mapeditortmp_732" va00
-  setv va00 addr game "mapeditortmp" 30631 30874 11363 11447 11697 11707
+  setv va00 addr game "mapeditortmp" 30631 30874 11363 11447 11683 11693
     rtyp va00 6
-    rmsc 30752 11535 ""
+    rmsc 30752 11528 ""
     setv game "mapeditortmp_733" va00
-  setv va00 addr game "mapeditortmp" 30874 30963 11447 11504 11707 11700
+  setv va00 addr game "mapeditortmp" 30874 30963 11447 11504 11693 11700
     rtyp va00 6
     rmsc 30918 11573 ""
     setv game "mapeditortmp_734" va00
-  setv va00 addr game "mapeditortmp" 30394 30602 11811 11734 11962 12024
+  setv va00 addr game "mapeditortmp" 30434 30602 11811 11734 11960 12024
     rtyp va00 9
-    rmsc 30498 11917 ""
+    rmsc 30518 11917 ""
     setv game "mapeditortmp_735" va00
   setv va00 addr game "mapeditortmp" 30602 31027 11734 11749 12024 12066
     rtyp va00 9
     rmsc 30814 11900 ""
     setv game "mapeditortmp_736" va00
-  setv va00 addr game "mapeditortmp" 31027 31473 11749 11719 12066 12056
+  setv va00 addr game "mapeditortmp" 31027 31473 11749 11719 12066 12030
     rtyp va00 9
-    rmsc 31250 11902 ""
+    rmsc 31250 11889 ""
     setv game "mapeditortmp_737" va00
-  setv va00 addr game "mapeditortmp" 31473 31943 11719 11692 12056 12044
+  setv va00 addr game "mapeditortmp" 31473 31943 11719 11692 12030 12044
     rtyp va00 9
     rmsc 31708 11881 ""
     setv game "mapeditortmp_738" va00
@@ -582,15 +582,15 @@ mmsc 34339 10075 ""
     rtyp va00 9
     rmsc 32653 11873 ""
     setv game "mapeditortmp_740" va00
-  setv va00 addr game "mapeditortmp" 33340 33419 11439 11435 12081 12083
+  setv va00 addr game "mapeditortmp" 33340 33419 11439 11435 12049 12057
     rtyp va00 9
-    rmsc 33379 11761 ""
+    rmsc 33379 11748 ""
     setv game "mapeditortmp_741" va00
-  setv va00 addr game "mapeditortmp" 32883 33340 11707 11702 12049 12081
+  setv va00 addr game "mapeditortmp" 32883 33340 11707 11702 12049 12049
     rtyp va00 9
-    rmsc 33111 11894 ""
+    rmsc 33111 11878 ""
     setv game "mapeditortmp_742" va00
-  setv va00 addr game "mapeditortmp" 33419 33805 11249 11249 12083 12086
+  setv va00 addr game "mapeditortmp" 33419 33805 11249 11249 12057 12086
     rtyp va00 9
     rmsc 33612 11667 ""
     setv game "mapeditortmp_743" va00
@@ -610,9 +610,9 @@ mmsc 34339 10075 ""
     rtyp va00 9
     rmsc 34964 12052 ""
     setv game "mapeditortmp_747" va00
-  setv va00 addr game "mapeditortmp" 35240 36054 11766 11722 12076 11969
+  setv va00 addr game "mapeditortmp" 35240 35756 11766 11722 12076 12048
     rtyp va00 9
-    rmsc 35647 11867 ""
+    rmsc 35498 11907 ""
     setv game "mapeditortmp_748" va00
   setv va00 addr game "mapeditortmp" 35240 35718 11492 11477 11729 11695
     rtyp va00 6
@@ -726,17 +726,17 @@ mmsc 34339 10075 ""
     rtyp va00 8
     rmsc 35193 10880 ""
     setv game "mapeditortmp_776" va00
-  setv va00 addr game "mapeditortmp" 34637 34917 10805 10760 10842 10842
+  setv va00 addr game "mapeditortmp" 34637 34917 10805 10773 10842 10842
     rtyp va00 0
     rmsc 34777 10823 ""
     setv game "mapeditortmp_777" va00
-  setv va00 addr game "mapeditortmp" 34917 35209 10760 10785 10842 10842
+  setv va00 addr game "mapeditortmp" 34917 35224 10773 10807 10842 10842
     rtyp va00 0
-    rmsc 35063 10801 ""
+    rmsc 35070 10807 ""
     setv game "mapeditortmp_778" va00
-  setv va00 addr game "mapeditortmp" 36294 36450 11707 11598 11870 11873
+  setv va00 addr game "mapeditortmp" 36340 36450 11707 11598 11858 11873
     rtyp va00 5
-    rmsc 36372 11790 ""
+    rmsc 36395 11790 ""
     setv game "mapeditortmp_779" va00
   setv va00 addr game "mapeditortmp" 36450 36821 11598 11601 11873 11856
     rtyp va00 5
@@ -746,39 +746,39 @@ mmsc 34339 10075 ""
     rtyp va00 5
     rmsc 37022 11728 ""
     setv game "mapeditortmp_781" va00
-  setv va00 addr game "mapeditortmp" 37224 37479 11664 11729 11856 11851
+  setv va00 addr game "mapeditortmp" 37224 37427 11664 11729 11856 11847
     rtyp va00 5
-    rmsc 37351 11757 ""
+    rmsc 37325 11755 ""
     setv game "mapeditortmp_782" va00
-  setv va00 addr game "mapeditortmp" 36395 36611 11353 11244 11573 11586
+  setv va00 addr game "mapeditortmp" 36439 36611 11353 11244 11575 11586
     rtyp va00 5
-    rmsc 36503 11469 ""
+    rmsc 36525 11469 ""
     setv game "mapeditortmp_783" va00
   setv va00 addr game "mapeditortmp" 36611 36875 11244 11254 11586 11576
     rtyp va00 5
     rmsc 36743 11410 ""
     setv game "mapeditortmp_784" va00
-  setv va00 addr game "mapeditortmp" 36875 37200 11254 11257 11576 11571
+  setv va00 addr game "mapeditortmp" 36875 37200 11254 11257 11576 11585
     rtyp va00 5
-    rmsc 37037 11412 ""
+    rmsc 37037 11419 ""
     setv game "mapeditortmp_785" va00
-  setv va00 addr game "mapeditortmp" 37200 37301 11257 11247 11500 11348
+  setv va00 addr game "mapeditortmp" 37200 37301 11257 11247 11500 11358
     rtyp va00 5
-    rmsc 37250 11302 ""
+    rmsc 37250 11307 ""
     setv game "mapeditortmp_786" va00
   setv va00 addr game "mapeditortmp" 37301 37464 11247 11316 11358 11348
     rtyp va00 5
     rmsc 37382 11297 ""
     setv game "mapeditortmp_787" va00
-  setv va00 addr game "mapeditortmp" 37299 37489 11447 11373 11650 11697
+  setv va00 addr game "mapeditortmp" 37293 37473 11467 11373 11664 11677
     rtyp va00 5
-    rmsc 37394 11572 ""
+    rmsc 37383 11572 ""
     setv game "mapeditortmp_788" va00
-  setv va00 addr game "mapeditortmp" 36153 36237 9544 9595 9876 9887
+  setv va00 addr game "mapeditortmp" 36153 36237 9544 9595 9902 9909
     rtyp va00 3
-    rmsc 36195 9715 ""
+    rmsc 36195 9726 ""
     setv game "mapeditortmp_789" va00
-  setv va00 addr game "mapeditortmp" 36237 36626 9595 9597 9887 9934
+  setv va00 addr game "mapeditortmp" 36237 36626 9595 9597 9909 9934
     rtyp va00 3
     rmsc 36431 9764 ""
     setv game "mapeditortmp_790" va00
@@ -798,17 +798,17 @@ mmsc 34339 10075 ""
     rtyp va00 3
     rmsc 38460 9826 ""
     setv game "mapeditortmp_794" va00
-  setv va00 addr game "mapeditortmp" 38192 38813 9325 9345 9635 9649
+  setv va00 addr game "mapeditortmp" 38205 38813 9325 9345 9645 9649
     rtyp va00 6
-    rmsc 38502 9487 ""
+    rmsc 38509 9487 ""
     setv game "mapeditortmp_795" va00
-  setv va00 addr game "mapeditortmp" 38187 38546 9026 9001 9313 9318
+  setv va00 addr game "mapeditortmp" 38185 38546 9026 9001 9316 9328
     rtyp va00 5
-    rmsc 38366 9172 ""
+    rmsc 38365 9177 ""
     setv game "mapeditortmp_796" va00
-  setv va00 addr game "mapeditortmp" 38546 38781 9001 9241 9318 9320
+  setv va00 addr game "mapeditortmp" 38546 38781 9001 9241 9328 9328
     rtyp va00 5
-    rmsc 38663 9160 ""
+    rmsc 38663 9164 ""
     setv game "mapeditortmp_797" va00
   setv va00 addr game "mapeditortmp" 37524 38197 9991 10018 10313 10338
     rtyp va00 6
@@ -834,45 +834,45 @@ mmsc 34339 10075 ""
     rtyp va00 6
     rmsc 37927 11717 ""
     setv game "mapeditortmp_803" va00
-  setv va00 addr game "mapeditortmp" 38328 38707 11543 11524 11925 12002
+  setv va00 addr game "mapeditortmp" 38328 38695 11543 11524 11925 11952
     rtyp va00 6
-    rmsc 38517 11772 ""
+    rmsc 38511 11747 ""
     setv game "mapeditortmp_804" va00
   setv va00 addr game "mapeditortmp" 38330 38729 10393 10390 11489 11487
     rtyp va00 6
     rmsc 38529 10940 ""
     setv game "mapeditortmp_805" va00
-  setv va00 addr game "mapeditortmp" 36628 37331 9302 9294 9572 9552
+  setv va00 addr game "mapeditortmp" 36628 37331 9302 9318 9572 9552
     rtyp va00 6
     rmsc 36979 9427 ""
     setv game "mapeditortmp_806" va00
-  setv va00 addr game "mapeditortmp" 37331 37910 9294 9324 9552 9579
+  setv va00 addr game "mapeditortmp" 37331 37910 9318 9338 9552 9579
     rtyp va00 6
-    rmsc 37620 9436 ""
+    rmsc 37620 9448 ""
     setv game "mapeditortmp_807" va00
-  setv va00 addr game "mapeditortmp" 36628 37338 8968 8995 9292 9284
+  setv va00 addr game "mapeditortmp" 36628 37338 8991 8995 9292 9310
     rtyp va00 5
-    rmsc 36983 9126 ""
+    rmsc 36983 9150 ""
     setv game "mapeditortmp_808" va00
-  setv va00 addr game "mapeditortmp" 37338 38024 8995 9037 9284 9319
+  setv va00 addr game "mapeditortmp" 37338 38024 8995 9037 9310 9319
     rtyp va00 5
     rmsc 37681 9157 ""
     setv game "mapeditortmp_809" va00
-  setv va00 addr game "mapeditortmp" 36628 37353 8606 8433 8953 8975
+  setv va00 addr game "mapeditortmp" 36627 37353 8606 8433 8980 8985
     rtyp va00 5
-    rmsc 36990 8790 ""
+    rmsc 36990 8795 ""
     setv game "mapeditortmp_810" va00
-  setv va00 addr game "mapeditortmp" 37353 38130 8433 8836 8975 9025
+  setv va00 addr game "mapeditortmp" 37353 38124 8433 8836 8985 9021
     rtyp va00 5
-    rmsc 37741 8729 ""
+    rmsc 37738 8727 ""
     setv game "mapeditortmp_811" va00
   setv va00 addr game "mapeditortmp" 38024 38135 9037 9034 9396 9168
     rtyp va00 0
     rmsc 38079 9102 ""
     setv game "mapeditortmp_812" va00
-  setv va00 addr game "mapeditortmp" 37910 38024 9324 9331 9529 9396
+  setv va00 addr game "mapeditortmp" 37910 38024 9338 9331 9529 9396
     rtyp va00 0
-    rmsc 37967 9360 ""
+    rmsc 37967 9367 ""
     setv game "mapeditortmp_813" va00
   setv va00 addr game "mapeditortmp" 36190 36574 8893 8891 9505 9510
     rtyp va00 6
@@ -882,29 +882,29 @@ mmsc 34339 10075 ""
     rtyp va00 5
     rmsc 36205 8598 ""
     setv game "mapeditortmp_815" va00
-  setv va00 addr game "mapeditortmp" 33423 34204 8443 8433 8715 8693
+  setv va00 addr game "mapeditortmp" 33431 34246 8461 8447 8693 8679
     rtyp va00 0
-    rmsc 33813 8568 ""
+    rmsc 33838 8570 ""
     setv game "mapeditortmp_816" va00
-  setv va00 addr game "mapeditortmp" 34204 35041 8423 8448 8693 8725
+  setv va00 addr game "mapeditortmp" 34246 35041 8447 8448 8679 8710
     rtyp va00 0
-    rmsc 34622 8574 ""
+    rmsc 34643 8578 ""
     setv game "mapeditortmp_817" va00
-  setv va00 addr game "mapeditortmp" 35041 35788 8448 8503 8725 8760
+  setv va00 addr game "mapeditortmp" 35041 35787 8448 8503 8710 8768
     rtyp va00 0
-    rmsc 35414 8604 ""
+    rmsc 35414 8608 ""
     setv game "mapeditortmp_818" va00
-  setv va00 addr game "mapeditortmp" 33467 34222 8228 8154 8428 8406
+  setv va00 addr game "mapeditortmp" 33417 34212 8224 8150 8448 8436
     rtyp va00 5
-    rmsc 33844 8317 ""
+    rmsc 33814 8330 ""
     setv game "mapeditortmp_819" va00
-  setv va00 addr game "mapeditortmp" 34242 35048 8146 8151 8409 8421
+  setv va00 addr game "mapeditortmp" 34242 35034 8146 8151 8409 8405
     rtyp va00 5
-    rmsc 34645 8283 ""
+    rmsc 34638 8275 ""
     setv game "mapeditortmp_820" va00
-  setv va00 addr game "mapeditortmp" 35066 35783 8161 8305 8416 8493
+  setv va00 addr game "mapeditortmp" 35064 35783 8161 8305 8440 8493
     rtyp va00 5
-    rmsc 35424 8327 ""
+    rmsc 35423 8327 ""
     setv game "mapeditortmp_821" va00
   setv va00 addr game "mapeditortmp" 33089 33390 8263 8228 8715 8711
     rtyp va00 9
@@ -918,9 +918,9 @@ mmsc 34339 10075 ""
     rtyp va00 9
     rmsc 32248 8683 ""
     setv game "mapeditortmp_824" va00
-  setv va00 addr game "mapeditortmp" 31554 31975 8829 8579 8938 8921
+  setv va00 addr game "mapeditortmp" 31590 31975 8829 8579 8974 8921
     rtyp va00 9
-    rmsc 31764 8875 ""
+    rmsc 31782 8875 ""
     setv game "mapeditortmp_825" va00
   setv va00 addr game "mapeditortmp" 32617 32835 10481 10481 10808 10810
     rtyp va00 5
@@ -1502,118 +1502,116 @@ mmsc 32296 13593 ""
 
 
 
-
-door game "mapeditortmp_600" game "mapeditortmp_601" 100
+door game "mapeditortmp_600" game "mapeditortmp_748" 100
 door game "mapeditortmp_601" game "mapeditortmp_602" 100
 door game "mapeditortmp_602" game "mapeditortmp_603" 100
 door game "mapeditortmp_603" game "mapeditortmp_604" 100
-door game "mapeditortmp_604" game "mapeditortmp_615" 99
-door game "mapeditortmp_605" game "mapeditortmp_606" 100
+door game "mapeditortmp_604" game "mapeditortmp_605" 100
+door game "mapeditortmp_605" game "mapeditortmp_616" 99
 door game "mapeditortmp_606" game "mapeditortmp_607" 100
 door game "mapeditortmp_607" game "mapeditortmp_608" 100
-door game "mapeditortmp_607" game "mapeditortmp_789" 100
 door game "mapeditortmp_608" game "mapeditortmp_609" 100
-
 door game "mapeditortmp_608" game "mapeditortmp_789" 100
+
 door game "mapeditortmp_609" game "mapeditortmp_610" 100
+door game "mapeditortmp_609" game "mapeditortmp_789" 100
 door game "mapeditortmp_610" game "mapeditortmp_611" 100
 door game "mapeditortmp_611" game "mapeditortmp_612" 100
 door game "mapeditortmp_612" game "mapeditortmp_613" 100
 door game "mapeditortmp_613" game "mapeditortmp_614" 100
 door game "mapeditortmp_614" game "mapeditortmp_615" 100
-door game "mapeditortmp_614" game "mapeditortmp_647" 100
-door game "mapeditortmp_614" game "mapeditortmp_663" 99
-door game "mapeditortmp_615" game "mapeditortmp_647" 100
+door game "mapeditortmp_615" game "mapeditortmp_616" 100
+door game "mapeditortmp_615" game "mapeditortmp_648" 100
+door game "mapeditortmp_615" game "mapeditortmp_664" 99
 
-door game "mapeditortmp_616" game "mapeditortmp_617" 100
-door game "mapeditortmp_616" game "mapeditortmp_634" 99
+door game "mapeditortmp_616" game "mapeditortmp_648" 100
 door game "mapeditortmp_617" game "mapeditortmp_618" 100
+door game "mapeditortmp_617" game "mapeditortmp_635" 99
 door game "mapeditortmp_618" game "mapeditortmp_619" 100
-door game "mapeditortmp_619" game "mapeditortmp_643" 99
-door game "mapeditortmp_620" game "mapeditortmp_621" 100
-door game "mapeditortmp_620" game "mapeditortmp_625" 99
+door game "mapeditortmp_619" game "mapeditortmp_620" 100
+door game "mapeditortmp_620" game "mapeditortmp_644" 99
 door game "mapeditortmp_621" game "mapeditortmp_622" 100
-door game "mapeditortmp_621" game "mapeditortmp_634" 100
+door game "mapeditortmp_621" game "mapeditortmp_626" 99
 door game "mapeditortmp_622" game "mapeditortmp_623" 100
+door game "mapeditortmp_622" game "mapeditortmp_635" 100
 
-door game "mapeditortmp_622" game "mapeditortmp_634" 100
-door game "mapeditortmp_623" game "mapeditortmp_639" 99
-door game "mapeditortmp_624" game "mapeditortmp_625" 100
+door game "mapeditortmp_623" game "mapeditortmp_624" 100
+door game "mapeditortmp_623" game "mapeditortmp_635" 100
+door game "mapeditortmp_624" game "mapeditortmp_640" 99
 door game "mapeditortmp_625" game "mapeditortmp_626" 100
 door game "mapeditortmp_626" game "mapeditortmp_627" 100
-door game "mapeditortmp_627" game "mapeditortmp_633" 99
-door game "mapeditortmp_628" game "mapeditortmp_629" 100
-door game "mapeditortmp_628" game "mapeditortmp_703" 99
+door game "mapeditortmp_627" game "mapeditortmp_628" 100
+door game "mapeditortmp_628" game "mapeditortmp_634" 99
 door game "mapeditortmp_629" game "mapeditortmp_630" 100
+door game "mapeditortmp_629" game "mapeditortmp_703" 99
 door game "mapeditortmp_630" game "mapeditortmp_631" 100
 
 door game "mapeditortmp_631" game "mapeditortmp_632" 100
 door game "mapeditortmp_632" game "mapeditortmp_633" 100
-door game "mapeditortmp_632" game "mapeditortmp_636" 100
-door game "mapeditortmp_633" game "mapeditortmp_640" 100
-door game "mapeditortmp_635" game "mapeditortmp_636" 100
-door game "mapeditortmp_635" game "mapeditortmp_637" 100
-door game "mapeditortmp_635" game "mapeditortmp_639" 100
+door game "mapeditortmp_633" game "mapeditortmp_634" 100
+door game "mapeditortmp_633" game "mapeditortmp_637" 100
+door game "mapeditortmp_634" game "mapeditortmp_641" 100
+door game "mapeditortmp_636" game "mapeditortmp_637" 100
+door game "mapeditortmp_636" game "mapeditortmp_638" 100
 door game "mapeditortmp_636" game "mapeditortmp_640" 100
-door game "mapeditortmp_637" game "mapeditortmp_638" 100
-door game "mapeditortmp_637" game "mapeditortmp_641" 0
+door game "mapeditortmp_637" game "mapeditortmp_641" 100
+door game "mapeditortmp_638" game "mapeditortmp_639" 100
 
 door game "mapeditortmp_638" game "mapeditortmp_642" 0
-door game "mapeditortmp_638" game "mapeditortmp_645" 100
-door game "mapeditortmp_639" game "mapeditortmp_640" 100
-door game "mapeditortmp_639" game "mapeditortmp_641" 99
-door game "mapeditortmp_639" game "mapeditortmp_644" 100
-door game "mapeditortmp_641" game "mapeditortmp_642" 100
-door game "mapeditortmp_641" game "mapeditortmp_644" 100
+door game "mapeditortmp_639" game "mapeditortmp_643" 0
+door game "mapeditortmp_639" game "mapeditortmp_646" 100
+door game "mapeditortmp_640" game "mapeditortmp_641" 100
+door game "mapeditortmp_640" game "mapeditortmp_642" 99
+door game "mapeditortmp_640" game "mapeditortmp_645" 100
 door game "mapeditortmp_642" game "mapeditortmp_643" 100
-door game "mapeditortmp_642" game "mapeditortmp_644" 100
-door game "mapeditortmp_642" game "mapeditortmp_645" 99
-
+door game "mapeditortmp_642" game "mapeditortmp_645" 100
 door game "mapeditortmp_643" game "mapeditortmp_644" 100
-door game "mapeditortmp_643" game "mapeditortmp_646" 100
-door game "mapeditortmp_645" game "mapeditortmp_646" 100
-door game "mapeditortmp_645" game "mapeditortmp_648" 100
+door game "mapeditortmp_643" game "mapeditortmp_645" 100
+
+door game "mapeditortmp_643" game "mapeditortmp_646" 99
+door game "mapeditortmp_644" game "mapeditortmp_645" 100
+door game "mapeditortmp_644" game "mapeditortmp_647" 100
 door game "mapeditortmp_646" game "mapeditortmp_647" 100
-door game "mapeditortmp_646" game "mapeditortmp_648" 100
 door game "mapeditortmp_646" game "mapeditortmp_649" 100
-door game "mapeditortmp_646" game "mapeditortmp_650" 100
-door game "mapeditortmp_646" game "mapeditortmp_654" 100
+door game "mapeditortmp_647" game "mapeditortmp_648" 100
+door game "mapeditortmp_647" game "mapeditortmp_649" 100
 door game "mapeditortmp_647" game "mapeditortmp_650" 100
-
 door game "mapeditortmp_647" game "mapeditortmp_651" 100
-door game "mapeditortmp_647" game "mapeditortmp_663" 100
-door game "mapeditortmp_647" game "mapeditortmp_664" 100
-door game "mapeditortmp_648" game "mapeditortmp_654" 99
-door game "mapeditortmp_649" game "mapeditortmp_650" 100
-door game "mapeditortmp_649" game "mapeditortmp_654" 99
+door game "mapeditortmp_647" game "mapeditortmp_655" 100
+
+door game "mapeditortmp_648" game "mapeditortmp_651" 100
+door game "mapeditortmp_648" game "mapeditortmp_652" 100
+door game "mapeditortmp_648" game "mapeditortmp_664" 100
+door game "mapeditortmp_649" game "mapeditortmp_655" 99
 door game "mapeditortmp_650" game "mapeditortmp_651" 100
-door game "mapeditortmp_651" game "mapeditortmp_664" 99
-door game "mapeditortmp_652" game "mapeditortmp_653" 100
-door game "mapeditortmp_652" game "mapeditortmp_699" 99
+door game "mapeditortmp_650" game "mapeditortmp_655" 99
+door game "mapeditortmp_651" game "mapeditortmp_652" 100
+door game "mapeditortmp_652" game "mapeditortmp_665" 99
+door game "mapeditortmp_653" game "mapeditortmp_654" 100
+door game "mapeditortmp_653" game "mapeditortmp_699" 99
 
-door game "mapeditortmp_653" game "mapeditortmp_655" 100
-door game "mapeditortmp_654" game "mapeditortmp_655" 100
 door game "mapeditortmp_654" game "mapeditortmp_656" 100
-door game "mapeditortmp_656" game "mapeditortmp_657" 100
+door game "mapeditortmp_655" game "mapeditortmp_656" 100
+door game "mapeditortmp_655" game "mapeditortmp_657" 100
 door game "mapeditortmp_657" game "mapeditortmp_658" 100
-door game "mapeditortmp_658" game "mapeditortmp_694" 99
-door game "mapeditortmp_659" game "mapeditortmp_660" 100
-door game "mapeditortmp_659" game "mapeditortmp_665" 99
+door game "mapeditortmp_658" game "mapeditortmp_659" 100
+door game "mapeditortmp_659" game "mapeditortmp_694" 99
 door game "mapeditortmp_660" game "mapeditortmp_661" 100
+door game "mapeditortmp_660" game "mapeditortmp_666" 99
 door game "mapeditortmp_661" game "mapeditortmp_662" 100
+door game "mapeditortmp_662" game "mapeditortmp_663" 100
 
-door game "mapeditortmp_662" game "mapeditortmp_669" 100
-door game "mapeditortmp_663" game "mapeditortmp_664" 99
-door game "mapeditortmp_663" game "mapeditortmp_665" 100
-door game "mapeditortmp_664" game "mapeditortmp_678" 100
-door game "mapeditortmp_664" game "mapeditortmp_694" 100
-door game "mapeditortmp_665" game "mapeditortmp_666" 100
+door game "mapeditortmp_663" game "mapeditortmp_671" 100
+door game "mapeditortmp_664" game "mapeditortmp_665" 99
+door game "mapeditortmp_664" game "mapeditortmp_666" 100
+door game "mapeditortmp_665" game "mapeditortmp_678" 100
+door game "mapeditortmp_665" game "mapeditortmp_694" 100
 door game "mapeditortmp_666" game "mapeditortmp_667" 100
 door game "mapeditortmp_667" game "mapeditortmp_668" 100
-door game "mapeditortmp_668" game "mapeditortmp_670" 100
+door game "mapeditortmp_668" game "mapeditortmp_669" 100
 door game "mapeditortmp_669" game "mapeditortmp_670" 100
+door game "mapeditortmp_670" game "mapeditortmp_671" 100
 
-door game "mapeditortmp_669" game "mapeditortmp_671" 99
 door game "mapeditortmp_671" game "mapeditortmp_672" 99
 door game "mapeditortmp_671" game "mapeditortmp_682" 100
 door game "mapeditortmp_671" game "mapeditortmp_683" 100
@@ -1623,8 +1621,8 @@ door game "mapeditortmp_674" game "mapeditortmp_675" 100
 door game "mapeditortmp_675" game "mapeditortmp_676" 100
 door game "mapeditortmp_676" game "mapeditortmp_677" 100
 door game "mapeditortmp_678" game "mapeditortmp_679" 100
-
 door game "mapeditortmp_679" game "mapeditortmp_680" 100
+
 door game "mapeditortmp_680" game "mapeditortmp_681" 100
 door game "mapeditortmp_681" game "mapeditortmp_682" 100
 door game "mapeditortmp_684" game "mapeditortmp_685" 100
@@ -1634,8 +1632,8 @@ door game "mapeditortmp_687" game "mapeditortmp_688" 100
 door game "mapeditortmp_689" game "mapeditortmp_690" 100
 door game "mapeditortmp_690" game "mapeditortmp_691" 100
 door game "mapeditortmp_691" game "mapeditortmp_692" 100
-
 door game "mapeditortmp_692" game "mapeditortmp_693" 100
+
 door game "mapeditortmp_694" game "mapeditortmp_695" 100
 door game "mapeditortmp_695" game "mapeditortmp_696" 100
 door game "mapeditortmp_696" game "mapeditortmp_697" 100
@@ -1645,8 +1643,8 @@ door game "mapeditortmp_699" game "mapeditortmp_700" 100
 door game "mapeditortmp_699" game "mapeditortmp_826" 100
 door game "mapeditortmp_700" game "mapeditortmp_701" 100
 door game "mapeditortmp_701" game "mapeditortmp_702" 100
-
 door game "mapeditortmp_702" game "mapeditortmp_709" 100
+
 door game "mapeditortmp_703" game "mapeditortmp_704" 100
 door game "mapeditortmp_703" game "mapeditortmp_713" 99
 door game "mapeditortmp_704" game "mapeditortmp_705" 100
@@ -1656,8 +1654,8 @@ door game "mapeditortmp_707" game "mapeditortmp_708" 100
 door game "mapeditortmp_708" game "mapeditortmp_709" 99
 door game "mapeditortmp_709" game "mapeditortmp_710" 100
 door game "mapeditortmp_710" game "mapeditortmp_711" 100
-
 door game "mapeditortmp_711" game "mapeditortmp_712" 100
+
 door game "mapeditortmp_711" game "mapeditortmp_719" 0
 door game "mapeditortmp_711" game "mapeditortmp_720" 0
 door game "mapeditortmp_711" game "mapeditortmp_721" 0
@@ -1667,8 +1665,8 @@ door game "mapeditortmp_713" game "mapeditortmp_715" 100
 door game "mapeditortmp_716" game "mapeditortmp_717" 100
 door game "mapeditortmp_716" game "mapeditortmp_719" 100
 door game "mapeditortmp_717" game "mapeditortmp_718" 100
-
 door game "mapeditortmp_719" game "mapeditortmp_720" 100
+
 door game "mapeditortmp_720" game "mapeditortmp_721" 100
 door game "mapeditortmp_721" game "mapeditortmp_722" 100
 door game "mapeditortmp_722" game "mapeditortmp_723" 100
@@ -1678,8 +1676,8 @@ door game "mapeditortmp_725" game "mapeditortmp_726" 100
 door game "mapeditortmp_726" game "mapeditortmp_727" 100
 door game "mapeditortmp_727" game "mapeditortmp_728" 50
 door game "mapeditortmp_727" game "mapeditortmp_729" 50
-
 door game "mapeditortmp_727" game "mapeditortmp_730" 50
+
 door game "mapeditortmp_727" game "mapeditortmp_741" 99
 door game "mapeditortmp_728" game "mapeditortmp_729" 100
 door game "mapeditortmp_729" game "mapeditortmp_730" 100
@@ -1689,8 +1687,8 @@ door game "mapeditortmp_733" game "mapeditortmp_734" 100
 door game "mapeditortmp_735" game "mapeditortmp_736" 100
 door game "mapeditortmp_736" game "mapeditortmp_737" 100
 door game "mapeditortmp_737" game "mapeditortmp_738" 100
-
 door game "mapeditortmp_738" game "mapeditortmp_739" 100
+
 door game "mapeditortmp_739" game "mapeditortmp_740" 100
 door game "mapeditortmp_740" game "mapeditortmp_742" 100
 door game "mapeditortmp_741" game "mapeditortmp_742" 100
@@ -1700,8 +1698,8 @@ door game "mapeditortmp_744" game "mapeditortmp_745" 100
 door game "mapeditortmp_745" game "mapeditortmp_746" 100
 door game "mapeditortmp_746" game "mapeditortmp_747" 0
 door game "mapeditortmp_746" game "mapeditortmp_749" 100
-
 door game "mapeditortmp_746" game "mapeditortmp_750" 100
+
 door game "mapeditortmp_747" game "mapeditortmp_748" 100
 door game "mapeditortmp_749" game "mapeditortmp_750" 100
 door game "mapeditortmp_749" game "mapeditortmp_754" 100
@@ -1711,8 +1709,8 @@ door game "mapeditortmp_751" game "mapeditortmp_755" 99
 door game "mapeditortmp_752" game "mapeditortmp_753" 100
 door game "mapeditortmp_755" game "mapeditortmp_756" 100
 door game "mapeditortmp_756" game "mapeditortmp_757" 100
-
 door game "mapeditortmp_757" game "mapeditortmp_758" 100
+
 door game "mapeditortmp_758" game "mapeditortmp_759" 100
 door game "mapeditortmp_760" game "mapeditortmp_761" 100
 door game "mapeditortmp_761" game "mapeditortmp_762" 100
@@ -1722,8 +1720,8 @@ door game "mapeditortmp_764" game "mapeditortmp_765" 100
 door game "mapeditortmp_765" game "mapeditortmp_766" 100
 door game "mapeditortmp_766" game "mapeditortmp_767" 100
 door game "mapeditortmp_767" game "mapeditortmp_768" 100
-
 door game "mapeditortmp_768" game "mapeditortmp_769" 100
+
 door game "mapeditortmp_769" game "mapeditortmp_770" 100
 door game "mapeditortmp_770" game "mapeditortmp_771" 100
 door game "mapeditortmp_771" game "mapeditortmp_772" 100
@@ -1733,8 +1731,8 @@ door game "mapeditortmp_774" game "mapeditortmp_777" 100
 door game "mapeditortmp_775" game "mapeditortmp_776" 100
 door game "mapeditortmp_775" game "mapeditortmp_777" 100
 door game "mapeditortmp_775" game "mapeditortmp_778" 100
-
 door game "mapeditortmp_776" game "mapeditortmp_778" 100
+
 door game "mapeditortmp_777" game "mapeditortmp_778" 100
 door game "mapeditortmp_779" game "mapeditortmp_780" 100
 door game "mapeditortmp_780" game "mapeditortmp_781" 100
@@ -1744,8 +1742,8 @@ door game "mapeditortmp_784" game "mapeditortmp_785" 100
 door game "mapeditortmp_785" game "mapeditortmp_786" 100
 door game "mapeditortmp_786" game "mapeditortmp_787" 100
 door game "mapeditortmp_789" game "mapeditortmp_790" 100
-
 door game "mapeditortmp_790" game "mapeditortmp_791" 100
+
 door game "mapeditortmp_791" game "mapeditortmp_792" 100
 door game "mapeditortmp_792" game "mapeditortmp_793" 100
 door game "mapeditortmp_793" game "mapeditortmp_794" 100
@@ -1755,8 +1753,8 @@ door game "mapeditortmp_806" game "mapeditortmp_807" 100
 door game "mapeditortmp_807" game "mapeditortmp_813" 100
 door game "mapeditortmp_808" game "mapeditortmp_809" 100
 door game "mapeditortmp_809" game "mapeditortmp_812" 100
-
 door game "mapeditortmp_810" game "mapeditortmp_811" 100
+
 door game "mapeditortmp_812" game "mapeditortmp_813" 100
 door game "mapeditortmp_816" game "mapeditortmp_817" 100
 door game "mapeditortmp_817" game "mapeditortmp_818" 100
@@ -1766,8 +1764,8 @@ door game "mapeditortmp_824" game "mapeditortmp_825" 100
 door game "mapeditortmp_827" game "mapeditortmp_828" 100
 door game "mapeditortmp_828" game "mapeditortmp_829" 100
 door game "mapeditortmp_829" game "mapeditortmp_830" 99
-
 door game "mapeditortmp_830" game "mapeditortmp_831" 99
+
 door game "mapeditortmp_830" game "mapeditortmp_836" 100
 door game "mapeditortmp_830" game "mapeditortmp_848" 100
 door game "mapeditortmp_831" game "mapeditortmp_832" 100
@@ -1777,8 +1775,8 @@ door game "mapeditortmp_834" game "mapeditortmp_835" 100
 door game "mapeditortmp_836" game "mapeditortmp_837" 100
 door game "mapeditortmp_837" game "mapeditortmp_838" 100
 door game "mapeditortmp_838" game "mapeditortmp_839" 100
-
 door game "mapeditortmp_839" game "mapeditortmp_840" 100
+
 door game "mapeditortmp_840" game "mapeditortmp_841" 99
 door game "mapeditortmp_841" game "mapeditortmp_842" 100
 door game "mapeditortmp_841" game "mapeditortmp_843" 100
@@ -1788,8 +1786,8 @@ door game "mapeditortmp_845" game "mapeditortmp_846" 100
 door game "mapeditortmp_846" game "mapeditortmp_847" 99
 door game "mapeditortmp_847" game "mapeditortmp_850" 99
 door game "mapeditortmp_847" game "mapeditortmp_861" 100
-
 door game "mapeditortmp_847" game "mapeditortmp_880" 100
+
 door game "mapeditortmp_848" game "mapeditortmp_849" 99
 door game "mapeditortmp_849" game "mapeditortmp_850" 100
 door game "mapeditortmp_849" game "mapeditortmp_851" 100
@@ -1799,8 +1797,8 @@ door game "mapeditortmp_852" game "mapeditortmp_859" 99
 door game "mapeditortmp_853" game "mapeditortmp_854" 100
 door game "mapeditortmp_854" game "mapeditortmp_855" 100
 door game "mapeditortmp_855" game "mapeditortmp_856" 100
-
 door game "mapeditortmp_857" game "mapeditortmp_858" 100
+
 door game "mapeditortmp_858" game "mapeditortmp_859" 99
 door game "mapeditortmp_859" game "mapeditortmp_860" 100
 door game "mapeditortmp_859" game "mapeditortmp_862" 100
@@ -1810,8 +1808,8 @@ door game "mapeditortmp_863" game "mapeditortmp_864" 100
 door game "mapeditortmp_864" game "mapeditortmp_865" 100
 door game "mapeditortmp_865" game "mapeditortmp_866" 99
 door game "mapeditortmp_866" game "mapeditortmp_867" 100
-
 door game "mapeditortmp_867" game "mapeditortmp_868" 100
+
 door game "mapeditortmp_868" game "mapeditortmp_869" 100
 door game "mapeditortmp_869" game "mapeditortmp_870" 100
 door game "mapeditortmp_870" game "mapeditortmp_871" 100
@@ -1821,8 +1819,8 @@ door game "mapeditortmp_873" game "mapeditortmp_874" 100
 door game "mapeditortmp_874" game "mapeditortmp_875" 100
 door game "mapeditortmp_875" game "mapeditortmp_876" 100
 door game "mapeditortmp_876" game "mapeditortmp_877" 100
-
 door game "mapeditortmp_877" game "mapeditortmp_878" 100
+
 door game "mapeditortmp_878" game "mapeditortmp_879" 100
 door game "mapeditortmp_880" game "mapeditortmp_881" 100
 door game "mapeditortmp_881" game "mapeditortmp_882" 100
@@ -1832,8 +1830,8 @@ door game "mapeditortmp_885" game "mapeditortmp_886" 100
 door game "mapeditortmp_886" game "mapeditortmp_887" 100
 door game "mapeditortmp_887" game "mapeditortmp_888" 100
 door game "mapeditortmp_888" game "mapeditortmp_889" 99
-
 door game "mapeditortmp_888" game "mapeditortmp_892" 100
+
 door game "mapeditortmp_889" game "mapeditortmp_890" 100
 door game "mapeditortmp_890" game "mapeditortmp_891" 100
 door game "mapeditortmp_891" game "mapeditortmp_894" 99
@@ -1843,8 +1841,8 @@ door game "mapeditortmp_894" game "mapeditortmp_895" 100
 door game "mapeditortmp_894" game "mapeditortmp_900" 99
 door game "mapeditortmp_896" game "mapeditortmp_897" 100
 door game "mapeditortmp_897" game "mapeditortmp_898" 100
-
 door game "mapeditortmp_898" game "mapeditortmp_899" 100
+
 door game "mapeditortmp_899" game "mapeditortmp_901" 99
 door game "mapeditortmp_900" game "mapeditortmp_901" 100
 door game "mapeditortmp_900" game "mapeditortmp_916" 100
@@ -1854,8 +1852,8 @@ door game "mapeditortmp_903" game "mapeditortmp_904" 100
 door game "mapeditortmp_904" game "mapeditortmp_905" 100
 door game "mapeditortmp_905" game "mapeditortmp_906" 100
 door game "mapeditortmp_907" game "mapeditortmp_908" 100
-
 door game "mapeditortmp_908" game "mapeditortmp_909" 100
+
 door game "mapeditortmp_909" game "mapeditortmp_910" 100
 door game "mapeditortmp_910" game "mapeditortmp_911" 100
 door game "mapeditortmp_911" game "mapeditortmp_912" 100
@@ -1865,8 +1863,8 @@ door game "mapeditortmp_914" game "mapeditortmp_915" 99
 door game "mapeditortmp_915" game "mapeditortmp_916" 99
 door game "mapeditortmp_915" game "mapeditortmp_917" 100
 door game "mapeditortmp_915" game "mapeditortmp_953" 100
-
 door game "mapeditortmp_917" game "mapeditortmp_918" 100
+
 door game "mapeditortmp_918" game "mapeditortmp_919" 100
 door game "mapeditortmp_919" game "mapeditortmp_925" 99
 door game "mapeditortmp_920" game "mapeditortmp_921" 100
@@ -1876,8 +1874,8 @@ door game "mapeditortmp_923" game "mapeditortmp_924" 99
 door game "mapeditortmp_924" game "mapeditortmp_925" 100
 door game "mapeditortmp_924" game "mapeditortmp_952" 100
 door game "mapeditortmp_925" game "mapeditortmp_926" 100
-
 door game "mapeditortmp_926" game "mapeditortmp_927" 100
+
 door game "mapeditortmp_927" game "mapeditortmp_928" 100
 door game "mapeditortmp_928" game "mapeditortmp_929" 100
 door game "mapeditortmp_929" game "mapeditortmp_930" 100
@@ -1887,8 +1885,8 @@ door game "mapeditortmp_931" game "mapeditortmp_932" 100
 door game "mapeditortmp_932" game "mapeditortmp_933" 100
 door game "mapeditortmp_935" game "mapeditortmp_936" 100
 door game "mapeditortmp_936" game "mapeditortmp_937" 100
-
 door game "mapeditortmp_937" game "mapeditortmp_938" 100
+
 door game "mapeditortmp_938" game "mapeditortmp_939" 100
 door game "mapeditortmp_939" game "mapeditortmp_940" 99
 door game "mapeditortmp_939" game "mapeditortmp_943" 100
@@ -1898,8 +1896,8 @@ door game "mapeditortmp_942" game "mapeditortmp_944" 99
 door game "mapeditortmp_944" game "mapeditortmp_945" 100
 door game "mapeditortmp_944" game "mapeditortmp_947" 100
 door game "mapeditortmp_945" game "mapeditortmp_946" 100
-
 door game "mapeditortmp_945" game "mapeditortmp_947" 100
+
 door game "mapeditortmp_945" game "mapeditortmp_949" 99
 door game "mapeditortmp_946" game "mapeditortmp_947" 100
 door game "mapeditortmp_947" game "mapeditortmp_948" 100
@@ -1909,8 +1907,8 @@ door game "mapeditortmp_951" game "mapeditortmp_952" 100
 door game "mapeditortmp_953" game "mapeditortmp_954" 100
 door game "mapeditortmp_954" game "mapeditortmp_955" 100
 door game "mapeditortmp_955" game "mapeditortmp_956" 100
-
 door game "mapeditortmp_956" game "mapeditortmp_957" 100
+
 door game "mapeditortmp_957" game "mapeditortmp_958" 100
 door game "mapeditortmp_958" game "mapeditortmp_959" 100
 door game "mapeditortmp_959" game "mapeditortmp_960" 100
@@ -2279,4 +2277,3 @@ delg "mapeditortmp_957"
 delg "mapeditortmp_958"
 delg "mapeditortmp_959"
 delg "mapeditortmp_960"
-
