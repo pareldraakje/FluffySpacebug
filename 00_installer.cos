@@ -66,7 +66,7 @@ endi
 * For more info see http://cdn.creatures.net
 
 * Addon file: deletes existing metarooms at the same place, same background name
-* 1 metarooms, 364 rooms, 667 doors
+* 1 metarooms, 364 rooms, 668 doors
 
 setv va00 gmap 33778 9800
 doif va00 <> -1
@@ -722,17 +722,17 @@ mmsc 33778 9800 ""
     rtyp va00 1
     rmsc 30551 10147 ""
     setv game "fluffyspacebugtmp_746" va00
-  setv va00 addr game "fluffyspacebugtmp" 30136 30352 9981 9981 10405 10405
+  setv va00 addr game "fluffyspacebugtmp" 30136 30352 10231 10231 10405 10405
     rtyp va00 1
-    rmsc 30244 10193 ""
+    rmsc 30244 10318 ""
     setv game "fluffyspacebugtmp_747" va00
   setv va00 addr game "fluffyspacebugtmp" 29956 30136 10161 9981 10399 10405
     rtyp va00 1
     rmsc 30046 10283 ""
     setv game "fluffyspacebugtmp_748" va00
-  setv va00 addr game "fluffyspacebugtmp" 30136 30352 9955 9755 9981 9981
+  setv va00 addr game "fluffyspacebugtmp" 30136 30352 9981 9755 10231 10231
     rtyp va00 0
-    rmsc 30244 9968 ""
+    rmsc 30244 10106 ""
     setv game "fluffyspacebugtmp_749" va00
   setv va00 addr game "fluffyspacebugtmp" 30352 30644 9755 9615 9879 9883
     rtyp va00 0
@@ -1914,13 +1914,14 @@ door game "fluffyspacebugtmp_746" game "fluffyspacebugtmp_750" 100
 door game "fluffyspacebugtmp_746" game "fluffyspacebugtmp_751" 100
 door game "fluffyspacebugtmp_747" game "fluffyspacebugtmp_748" 100
 door game "fluffyspacebugtmp_747" game "fluffyspacebugtmp_749" 100
+door game "fluffyspacebugtmp_748" game "fluffyspacebugtmp_749" 100
 door game "fluffyspacebugtmp_749" game "fluffyspacebugtmp_750" 100
 door game "fluffyspacebugtmp_750" game "fluffyspacebugtmp_751" 100
 door game "fluffyspacebugtmp_751" game "fluffyspacebugtmp_752" 100
 door game "fluffyspacebugtmp_752" game "fluffyspacebugtmp_753" 100
 door game "fluffyspacebugtmp_753" game "fluffyspacebugtmp_754" 100
-door game "fluffyspacebugtmp_755" game "fluffyspacebugtmp_756" 100
 
+door game "fluffyspacebugtmp_755" game "fluffyspacebugtmp_756" 100
 door game "fluffyspacebugtmp_756" game "fluffyspacebugtmp_757" 100
 door game "fluffyspacebugtmp_757" game "fluffyspacebugtmp_758" 100
 door game "fluffyspacebugtmp_758" game "fluffyspacebugtmp_759" 100
@@ -1930,8 +1931,8 @@ door game "fluffyspacebugtmp_763" game "fluffyspacebugtmp_764" 100
 door game "fluffyspacebugtmp_764" game "fluffyspacebugtmp_765" 100
 door game "fluffyspacebugtmp_765" game "fluffyspacebugtmp_766" 100
 door game "fluffyspacebugtmp_766" game "fluffyspacebugtmp_767" 100
-door game "fluffyspacebugtmp_767" game "fluffyspacebugtmp_768" 100
 
+door game "fluffyspacebugtmp_767" game "fluffyspacebugtmp_768" 100
 door game "fluffyspacebugtmp_768" game "fluffyspacebugtmp_769" 100
 door game "fluffyspacebugtmp_769" game "fluffyspacebugtmp_770" 100
 door game "fluffyspacebugtmp_770" game "fluffyspacebugtmp_789" 100
@@ -1941,8 +1942,8 @@ door game "fluffyspacebugtmp_771" game "fluffyspacebugtmp_801" 100
 door game "fluffyspacebugtmp_771" game "fluffyspacebugtmp_802" 100
 door game "fluffyspacebugtmp_772" game "fluffyspacebugtmp_773" 100
 door game "fluffyspacebugtmp_772" game "fluffyspacebugtmp_802" 100
-door game "fluffyspacebugtmp_773" game "fluffyspacebugtmp_802" 100
 
+door game "fluffyspacebugtmp_773" game "fluffyspacebugtmp_802" 100
 door game "fluffyspacebugtmp_774" game "fluffyspacebugtmp_775" 100
 door game "fluffyspacebugtmp_774" game "fluffyspacebugtmp_801" 100
 door game "fluffyspacebugtmp_775" game "fluffyspacebugtmp_776" 100
@@ -1952,8 +1953,8 @@ door game "fluffyspacebugtmp_776" game "fluffyspacebugtmp_801" 100
 door game "fluffyspacebugtmp_777" game "fluffyspacebugtmp_778" 100
 door game "fluffyspacebugtmp_777" game "fluffyspacebugtmp_800" 100
 door game "fluffyspacebugtmp_777" game "fluffyspacebugtmp_801" 100
-door game "fluffyspacebugtmp_778" game "fluffyspacebugtmp_779" 100
 
+door game "fluffyspacebugtmp_778" game "fluffyspacebugtmp_779" 100
 door game "fluffyspacebugtmp_778" game "fluffyspacebugtmp_799" 100
 door game "fluffyspacebugtmp_778" game "fluffyspacebugtmp_800" 100
 door game "fluffyspacebugtmp_779" game "fluffyspacebugtmp_780" 100
@@ -1963,8 +1964,8 @@ door game "fluffyspacebugtmp_780" game "fluffyspacebugtmp_798" 100
 door game "fluffyspacebugtmp_780" game "fluffyspacebugtmp_799" 100
 door game "fluffyspacebugtmp_781" game "fluffyspacebugtmp_782" 100
 door game "fluffyspacebugtmp_781" game "fluffyspacebugtmp_797" 100
-door game "fluffyspacebugtmp_781" game "fluffyspacebugtmp_798" 100
 
+door game "fluffyspacebugtmp_781" game "fluffyspacebugtmp_798" 100
 door game "fluffyspacebugtmp_782" game "fluffyspacebugtmp_783" 100
 door game "fluffyspacebugtmp_782" game "fluffyspacebugtmp_796" 100
 door game "fluffyspacebugtmp_782" game "fluffyspacebugtmp_797" 100
@@ -1974,8 +1975,8 @@ door game "fluffyspacebugtmp_784" game "fluffyspacebugtmp_785" 100
 door game "fluffyspacebugtmp_784" game "fluffyspacebugtmp_795" 100
 door game "fluffyspacebugtmp_784" game "fluffyspacebugtmp_796" 100
 door game "fluffyspacebugtmp_785" game "fluffyspacebugtmp_786" 100
-door game "fluffyspacebugtmp_785" game "fluffyspacebugtmp_795" 100
 
+door game "fluffyspacebugtmp_785" game "fluffyspacebugtmp_795" 100
 door game "fluffyspacebugtmp_786" game "fluffyspacebugtmp_787" 100
 door game "fluffyspacebugtmp_786" game "fluffyspacebugtmp_794" 100
 door game "fluffyspacebugtmp_787" game "fluffyspacebugtmp_788" 100
@@ -1985,8 +1986,8 @@ door game "fluffyspacebugtmp_788" game "fluffyspacebugtmp_794" 100
 door game "fluffyspacebugtmp_789" game "fluffyspacebugtmp_790" 100
 door game "fluffyspacebugtmp_789" game "fluffyspacebugtmp_791" 100
 door game "fluffyspacebugtmp_789" game "fluffyspacebugtmp_794" 100
-door game "fluffyspacebugtmp_790" game "fluffyspacebugtmp_794" 100
 
+door game "fluffyspacebugtmp_790" game "fluffyspacebugtmp_794" 100
 door game "fluffyspacebugtmp_791" game "fluffyspacebugtmp_792" 100
 door game "fluffyspacebugtmp_792" game "fluffyspacebugtmp_793" 100
 door game "fluffyspacebugtmp_794" game "fluffyspacebugtmp_795" 100
@@ -1996,8 +1997,8 @@ door game "fluffyspacebugtmp_795" game "fluffyspacebugtmp_796" 100
 door game "fluffyspacebugtmp_796" game "fluffyspacebugtmp_797" 100
 door game "fluffyspacebugtmp_797" game "fluffyspacebugtmp_798" 100
 door game "fluffyspacebugtmp_798" game "fluffyspacebugtmp_799" 100
-door game "fluffyspacebugtmp_799" game "fluffyspacebugtmp_800" 100
 
+door game "fluffyspacebugtmp_799" game "fluffyspacebugtmp_800" 100
 door game "fluffyspacebugtmp_800" game "fluffyspacebugtmp_801" 100
 door game "fluffyspacebugtmp_801" game "fluffyspacebugtmp_802" 100
 door game "fluffyspacebugtmp_803" game "fluffyspacebugtmp_804" 100
@@ -2007,8 +2008,8 @@ door game "fluffyspacebugtmp_804" game "fluffyspacebugtmp_816" 100
 door game "fluffyspacebugtmp_804" game "fluffyspacebugtmp_817" 100
 door game "fluffyspacebugtmp_805" game "fluffyspacebugtmp_806" 100
 door game "fluffyspacebugtmp_805" game "fluffyspacebugtmp_817" 100
-door game "fluffyspacebugtmp_805" game "fluffyspacebugtmp_818" 100
 
+door game "fluffyspacebugtmp_805" game "fluffyspacebugtmp_818" 100
 door game "fluffyspacebugtmp_806" game "fluffyspacebugtmp_807" 100
 door game "fluffyspacebugtmp_806" game "fluffyspacebugtmp_818" 100
 door game "fluffyspacebugtmp_807" game "fluffyspacebugtmp_808" 100
@@ -2018,8 +2019,8 @@ door game "fluffyspacebugtmp_808" game "fluffyspacebugtmp_818" 100
 door game "fluffyspacebugtmp_808" game "fluffyspacebugtmp_819" 100
 door game "fluffyspacebugtmp_809" game "fluffyspacebugtmp_810" 100
 door game "fluffyspacebugtmp_809" game "fluffyspacebugtmp_819" 100
-door game "fluffyspacebugtmp_809" game "fluffyspacebugtmp_820" 100
 
+door game "fluffyspacebugtmp_809" game "fluffyspacebugtmp_820" 100
 door game "fluffyspacebugtmp_810" game "fluffyspacebugtmp_811" 100
 door game "fluffyspacebugtmp_810" game "fluffyspacebugtmp_820" 100
 door game "fluffyspacebugtmp_810" game "fluffyspacebugtmp_821" 100
@@ -2029,8 +2030,8 @@ door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_813" 100
 door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_821" 100
 door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_822" 100
 door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_823" 100
-door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_824" 100
 
+door game "fluffyspacebugtmp_812" game "fluffyspacebugtmp_824" 100
 door game "fluffyspacebugtmp_813" game "fluffyspacebugtmp_814" 100
 door game "fluffyspacebugtmp_813" game "fluffyspacebugtmp_824" 100
 door game "fluffyspacebugtmp_814" game "fluffyspacebugtmp_815" 100
@@ -2040,8 +2041,8 @@ door game "fluffyspacebugtmp_815" game "fluffyspacebugtmp_825" 100
 door game "fluffyspacebugtmp_815" game "fluffyspacebugtmp_826" 100
 door game "fluffyspacebugtmp_815" game "fluffyspacebugtmp_827" 100
 door game "fluffyspacebugtmp_816" game "fluffyspacebugtmp_817" 100
-door game "fluffyspacebugtmp_817" game "fluffyspacebugtmp_818" 100
 
+door game "fluffyspacebugtmp_817" game "fluffyspacebugtmp_818" 100
 door game "fluffyspacebugtmp_817" game "fluffyspacebugtmp_836" 50
 door game "fluffyspacebugtmp_817" game "fluffyspacebugtmp_838" 50
 door game "fluffyspacebugtmp_817" game "fluffyspacebugtmp_839" 50
@@ -2051,8 +2052,8 @@ door game "fluffyspacebugtmp_820" game "fluffyspacebugtmp_821" 100
 door game "fluffyspacebugtmp_821" game "fluffyspacebugtmp_822" 100
 door game "fluffyspacebugtmp_822" game "fluffyspacebugtmp_823" 100
 door game "fluffyspacebugtmp_823" game "fluffyspacebugtmp_824" 100
-door game "fluffyspacebugtmp_824" game "fluffyspacebugtmp_825" 100
 
+door game "fluffyspacebugtmp_824" game "fluffyspacebugtmp_825" 100
 door game "fluffyspacebugtmp_825" game "fluffyspacebugtmp_827" 100
 door game "fluffyspacebugtmp_826" game "fluffyspacebugtmp_827" 100
 door game "fluffyspacebugtmp_828" game "fluffyspacebugtmp_829" 100
@@ -2062,8 +2063,8 @@ door game "fluffyspacebugtmp_830" game "fluffyspacebugtmp_831" 100
 door game "fluffyspacebugtmp_830" game "fluffyspacebugtmp_849" 100
 door game "fluffyspacebugtmp_831" game "fluffyspacebugtmp_832" 100
 door game "fluffyspacebugtmp_831" game "fluffyspacebugtmp_849" 100
-door game "fluffyspacebugtmp_831" game "fluffyspacebugtmp_850" 100
 
+door game "fluffyspacebugtmp_831" game "fluffyspacebugtmp_850" 100
 door game "fluffyspacebugtmp_832" game "fluffyspacebugtmp_833" 100
 door game "fluffyspacebugtmp_832" game "fluffyspacebugtmp_850" 100
 door game "fluffyspacebugtmp_833" game "fluffyspacebugtmp_834" 100
@@ -2073,8 +2074,8 @@ door game "fluffyspacebugtmp_834" game "fluffyspacebugtmp_850" 100
 door game "fluffyspacebugtmp_834" game "fluffyspacebugtmp_851" 100
 door game "fluffyspacebugtmp_835" game "fluffyspacebugtmp_837" 100
 door game "fluffyspacebugtmp_835" game "fluffyspacebugtmp_851" 100
-door game "fluffyspacebugtmp_835" game "fluffyspacebugtmp_852" 100
 
+door game "fluffyspacebugtmp_835" game "fluffyspacebugtmp_852" 100
 door game "fluffyspacebugtmp_836" game "fluffyspacebugtmp_837" 100
 door game "fluffyspacebugtmp_836" game "fluffyspacebugtmp_839" 100
 door game "fluffyspacebugtmp_836" game "fluffyspacebugtmp_852" 100
@@ -2084,8 +2085,8 @@ door game "fluffyspacebugtmp_838" game "fluffyspacebugtmp_840" 100
 door game "fluffyspacebugtmp_838" game "fluffyspacebugtmp_852" 100
 door game "fluffyspacebugtmp_839" game "fluffyspacebugtmp_852" 100
 door game "fluffyspacebugtmp_840" game "fluffyspacebugtmp_841" 100
-door game "fluffyspacebugtmp_840" game "fluffyspacebugtmp_852" 100
 
+door game "fluffyspacebugtmp_840" game "fluffyspacebugtmp_852" 100
 door game "fluffyspacebugtmp_840" game "fluffyspacebugtmp_853" 100
 door game "fluffyspacebugtmp_841" game "fluffyspacebugtmp_842" 100
 door game "fluffyspacebugtmp_841" game "fluffyspacebugtmp_853" 100
@@ -2095,8 +2096,8 @@ door game "fluffyspacebugtmp_842" game "fluffyspacebugtmp_854" 100
 door game "fluffyspacebugtmp_843" game "fluffyspacebugtmp_844" 100
 door game "fluffyspacebugtmp_843" game "fluffyspacebugtmp_854" 100
 door game "fluffyspacebugtmp_844" game "fluffyspacebugtmp_845" 100
-door game "fluffyspacebugtmp_844" game "fluffyspacebugtmp_854" 100
 
+door game "fluffyspacebugtmp_844" game "fluffyspacebugtmp_854" 100
 door game "fluffyspacebugtmp_844" game "fluffyspacebugtmp_855" 100
 door game "fluffyspacebugtmp_845" game "fluffyspacebugtmp_846" 100
 door game "fluffyspacebugtmp_845" game "fluffyspacebugtmp_855" 100
@@ -2106,8 +2107,8 @@ door game "fluffyspacebugtmp_846" game "fluffyspacebugtmp_856" 100
 door game "fluffyspacebugtmp_847" game "fluffyspacebugtmp_848" 100
 door game "fluffyspacebugtmp_847" game "fluffyspacebugtmp_856" 100
 door game "fluffyspacebugtmp_847" game "fluffyspacebugtmp_857" 100
-door game "fluffyspacebugtmp_848" game "fluffyspacebugtmp_857" 100
 
+door game "fluffyspacebugtmp_848" game "fluffyspacebugtmp_857" 100
 door game "fluffyspacebugtmp_849" game "fluffyspacebugtmp_850" 100
 door game "fluffyspacebugtmp_850" game "fluffyspacebugtmp_851" 100
 door game "fluffyspacebugtmp_851" game "fluffyspacebugtmp_852" 100
@@ -2117,8 +2118,8 @@ door game "fluffyspacebugtmp_852" game "fluffyspacebugtmp_853" 100
 door game "fluffyspacebugtmp_853" game "fluffyspacebugtmp_854" 100
 door game "fluffyspacebugtmp_853" game "fluffyspacebugtmp_862" 10
 door game "fluffyspacebugtmp_853" game "fluffyspacebugtmp_863" 10
-door game "fluffyspacebugtmp_854" game "fluffyspacebugtmp_855" 100
 
+door game "fluffyspacebugtmp_854" game "fluffyspacebugtmp_855" 100
 door game "fluffyspacebugtmp_855" game "fluffyspacebugtmp_856" 100
 door game "fluffyspacebugtmp_856" game "fluffyspacebugtmp_857" 100
 door game "fluffyspacebugtmp_858" game "fluffyspacebugtmp_859" 100
@@ -2128,8 +2129,8 @@ door game "fluffyspacebugtmp_859" game "fluffyspacebugtmp_860" 100
 door game "fluffyspacebugtmp_859" game "fluffyspacebugtmp_960" 100
 door game "fluffyspacebugtmp_859" game "fluffyspacebugtmp_961" 100
 door game "fluffyspacebugtmp_860" game "fluffyspacebugtmp_861" 100
-door game "fluffyspacebugtmp_860" game "fluffyspacebugtmp_961" 100
 
+door game "fluffyspacebugtmp_860" game "fluffyspacebugtmp_961" 100
 door game "fluffyspacebugtmp_860" game "fluffyspacebugtmp_962" 100
 door game "fluffyspacebugtmp_861" game "fluffyspacebugtmp_864" 100
 door game "fluffyspacebugtmp_861" game "fluffyspacebugtmp_962" 100
@@ -2139,8 +2140,8 @@ door game "fluffyspacebugtmp_862" game "fluffyspacebugtmp_864" 100
 door game "fluffyspacebugtmp_862" game "fluffyspacebugtmp_879" 100
 door game "fluffyspacebugtmp_862" game "fluffyspacebugtmp_963" 100
 door game "fluffyspacebugtmp_863" game "fluffyspacebugtmp_865" 100
-door game "fluffyspacebugtmp_863" game "fluffyspacebugtmp_879" 100
 
+door game "fluffyspacebugtmp_863" game "fluffyspacebugtmp_879" 100
 door game "fluffyspacebugtmp_864" game "fluffyspacebugtmp_963" 100
 door game "fluffyspacebugtmp_865" game "fluffyspacebugtmp_866" 100
 door game "fluffyspacebugtmp_865" game "fluffyspacebugtmp_879" 100
@@ -2150,8 +2151,8 @@ door game "fluffyspacebugtmp_866" game "fluffyspacebugtmp_881" 100
 door game "fluffyspacebugtmp_866" game "fluffyspacebugtmp_882" 100
 door game "fluffyspacebugtmp_867" game "fluffyspacebugtmp_868" 100
 door game "fluffyspacebugtmp_867" game "fluffyspacebugtmp_882" 100
-door game "fluffyspacebugtmp_868" game "fluffyspacebugtmp_869" 100
 
+door game "fluffyspacebugtmp_868" game "fluffyspacebugtmp_869" 100
 door game "fluffyspacebugtmp_868" game "fluffyspacebugtmp_882" 100
 door game "fluffyspacebugtmp_869" game "fluffyspacebugtmp_870" 100
 door game "fluffyspacebugtmp_869" game "fluffyspacebugtmp_882" 100
@@ -2161,8 +2162,8 @@ door game "fluffyspacebugtmp_870" game "fluffyspacebugtmp_871" 100
 door game "fluffyspacebugtmp_870" game "fluffyspacebugtmp_884" 100
 door game "fluffyspacebugtmp_870" game "fluffyspacebugtmp_885" 100
 door game "fluffyspacebugtmp_871" game "fluffyspacebugtmp_872" 100
-door game "fluffyspacebugtmp_871" game "fluffyspacebugtmp_885" 100
 
+door game "fluffyspacebugtmp_871" game "fluffyspacebugtmp_885" 100
 door game "fluffyspacebugtmp_871" game "fluffyspacebugtmp_886" 100
 door game "fluffyspacebugtmp_871" game "fluffyspacebugtmp_887" 100
 door game "fluffyspacebugtmp_872" game "fluffyspacebugtmp_873" 100
@@ -2172,8 +2173,8 @@ door game "fluffyspacebugtmp_873" game "fluffyspacebugtmp_874" 100
 door game "fluffyspacebugtmp_873" game "fluffyspacebugtmp_888" 100
 door game "fluffyspacebugtmp_873" game "fluffyspacebugtmp_889" 100
 door game "fluffyspacebugtmp_874" game "fluffyspacebugtmp_875" 100
-door game "fluffyspacebugtmp_874" game "fluffyspacebugtmp_889" 100
 
+door game "fluffyspacebugtmp_874" game "fluffyspacebugtmp_889" 100
 door game "fluffyspacebugtmp_874" game "fluffyspacebugtmp_890" 100
 door game "fluffyspacebugtmp_875" game "fluffyspacebugtmp_890" 100
 door game "fluffyspacebugtmp_876" game "fluffyspacebugtmp_877" 100
@@ -2183,8 +2184,8 @@ door game "fluffyspacebugtmp_877" game "fluffyspacebugtmp_878" 100
 door game "fluffyspacebugtmp_877" game "fluffyspacebugtmp_936" 100
 door game "fluffyspacebugtmp_878" game "fluffyspacebugtmp_879" 100
 door game "fluffyspacebugtmp_878" game "fluffyspacebugtmp_936" 100
-door game "fluffyspacebugtmp_878" game "fluffyspacebugtmp_937" 100
 
+door game "fluffyspacebugtmp_878" game "fluffyspacebugtmp_937" 100
 door game "fluffyspacebugtmp_879" game "fluffyspacebugtmp_881" 100
 door game "fluffyspacebugtmp_879" game "fluffyspacebugtmp_937" 100
 door game "fluffyspacebugtmp_879" game "fluffyspacebugtmp_963" 100
@@ -2194,8 +2195,8 @@ door game "fluffyspacebugtmp_881" game "fluffyspacebugtmp_882" 100
 door game "fluffyspacebugtmp_882" game "fluffyspacebugtmp_883" 100
 door game "fluffyspacebugtmp_883" game "fluffyspacebugtmp_884" 100
 door game "fluffyspacebugtmp_884" game "fluffyspacebugtmp_885" 100
-door game "fluffyspacebugtmp_885" game "fluffyspacebugtmp_886" 100
 
+door game "fluffyspacebugtmp_885" game "fluffyspacebugtmp_886" 100
 door game "fluffyspacebugtmp_886" game "fluffyspacebugtmp_887" 100
 door game "fluffyspacebugtmp_887" game "fluffyspacebugtmp_888" 100
 door game "fluffyspacebugtmp_888" game "fluffyspacebugtmp_889" 100
@@ -2205,8 +2206,8 @@ door game "fluffyspacebugtmp_891" game "fluffyspacebugtmp_901" 100
 door game "fluffyspacebugtmp_892" game "fluffyspacebugtmp_893" 100
 door game "fluffyspacebugtmp_892" game "fluffyspacebugtmp_901" 100
 door game "fluffyspacebugtmp_892" game "fluffyspacebugtmp_902" 100
-door game "fluffyspacebugtmp_893" game "fluffyspacebugtmp_894" 100
 
+door game "fluffyspacebugtmp_893" game "fluffyspacebugtmp_894" 100
 door game "fluffyspacebugtmp_893" game "fluffyspacebugtmp_902" 100
 door game "fluffyspacebugtmp_894" game "fluffyspacebugtmp_895" 100
 door game "fluffyspacebugtmp_894" game "fluffyspacebugtmp_902" 100
@@ -2216,8 +2217,8 @@ door game "fluffyspacebugtmp_895" game "fluffyspacebugtmp_903" 100
 door game "fluffyspacebugtmp_896" game "fluffyspacebugtmp_897" 100
 door game "fluffyspacebugtmp_896" game "fluffyspacebugtmp_903" 100
 door game "fluffyspacebugtmp_896" game "fluffyspacebugtmp_904" 100
-door game "fluffyspacebugtmp_897" game "fluffyspacebugtmp_898" 100
 
+door game "fluffyspacebugtmp_897" game "fluffyspacebugtmp_898" 100
 door game "fluffyspacebugtmp_897" game "fluffyspacebugtmp_904" 100
 door game "fluffyspacebugtmp_898" game "fluffyspacebugtmp_899" 100
 door game "fluffyspacebugtmp_900" game "fluffyspacebugtmp_926" 100
@@ -2227,8 +2228,8 @@ door game "fluffyspacebugtmp_901" game "fluffyspacebugtmp_902" 100
 door game "fluffyspacebugtmp_902" game "fluffyspacebugtmp_903" 100
 door game "fluffyspacebugtmp_903" game "fluffyspacebugtmp_904" 100
 door game "fluffyspacebugtmp_905" game "fluffyspacebugtmp_906" 100
-door game "fluffyspacebugtmp_905" game "fluffyspacebugtmp_919" 100
 
+door game "fluffyspacebugtmp_905" game "fluffyspacebugtmp_919" 100
 door game "fluffyspacebugtmp_906" game "fluffyspacebugtmp_907" 100
 door game "fluffyspacebugtmp_906" game "fluffyspacebugtmp_919" 100
 door game "fluffyspacebugtmp_907" game "fluffyspacebugtmp_908" 100
@@ -2238,8 +2239,8 @@ door game "fluffyspacebugtmp_908" game "fluffyspacebugtmp_909" 100
 door game "fluffyspacebugtmp_908" game "fluffyspacebugtmp_917" 100
 door game "fluffyspacebugtmp_908" game "fluffyspacebugtmp_918" 100
 door game "fluffyspacebugtmp_909" game "fluffyspacebugtmp_910" 100
-door game "fluffyspacebugtmp_909" game "fluffyspacebugtmp_916" 100
 
+door game "fluffyspacebugtmp_909" game "fluffyspacebugtmp_916" 100
 door game "fluffyspacebugtmp_909" game "fluffyspacebugtmp_917" 100
 door game "fluffyspacebugtmp_910" game "fluffyspacebugtmp_911" 100
 door game "fluffyspacebugtmp_910" game "fluffyspacebugtmp_915" 100
@@ -2249,8 +2250,8 @@ door game "fluffyspacebugtmp_911" game "fluffyspacebugtmp_915" 100
 door game "fluffyspacebugtmp_912" game "fluffyspacebugtmp_913" 100
 door game "fluffyspacebugtmp_912" game "fluffyspacebugtmp_914" 100
 door game "fluffyspacebugtmp_912" game "fluffyspacebugtmp_915" 100
-door game "fluffyspacebugtmp_913" game "fluffyspacebugtmp_914" 100
 
+door game "fluffyspacebugtmp_913" game "fluffyspacebugtmp_914" 100
 door game "fluffyspacebugtmp_913" game "fluffyspacebugtmp_920" 100
 door game "fluffyspacebugtmp_913" game "fluffyspacebugtmp_935" 100
 door game "fluffyspacebugtmp_914" game "fluffyspacebugtmp_915" 100
@@ -2260,8 +2261,8 @@ door game "fluffyspacebugtmp_916" game "fluffyspacebugtmp_917" 100
 door game "fluffyspacebugtmp_917" game "fluffyspacebugtmp_918" 100
 door game "fluffyspacebugtmp_918" game "fluffyspacebugtmp_919" 100
 door game "fluffyspacebugtmp_920" game "fluffyspacebugtmp_921" 100
-door game "fluffyspacebugtmp_921" game "fluffyspacebugtmp_922" 100
 
+door game "fluffyspacebugtmp_921" game "fluffyspacebugtmp_922" 100
 door game "fluffyspacebugtmp_921" game "fluffyspacebugtmp_934" 100
 door game "fluffyspacebugtmp_922" game "fluffyspacebugtmp_923" 100
 door game "fluffyspacebugtmp_922" game "fluffyspacebugtmp_933" 100
@@ -2271,8 +2272,8 @@ door game "fluffyspacebugtmp_923" game "fluffyspacebugtmp_931" 100
 door game "fluffyspacebugtmp_923" game "fluffyspacebugtmp_932" 100
 door game "fluffyspacebugtmp_923" game "fluffyspacebugtmp_933" 100
 door game "fluffyspacebugtmp_924" game "fluffyspacebugtmp_925" 100
-door game "fluffyspacebugtmp_924" game "fluffyspacebugtmp_930" 100
 
+door game "fluffyspacebugtmp_924" game "fluffyspacebugtmp_930" 100
 door game "fluffyspacebugtmp_924" game "fluffyspacebugtmp_931" 100
 door game "fluffyspacebugtmp_925" game "fluffyspacebugtmp_926" 100
 door game "fluffyspacebugtmp_925" game "fluffyspacebugtmp_928" 100
@@ -2282,8 +2283,8 @@ door game "fluffyspacebugtmp_926" game "fluffyspacebugtmp_927" 100
 door game "fluffyspacebugtmp_926" game "fluffyspacebugtmp_928" 100
 door game "fluffyspacebugtmp_928" game "fluffyspacebugtmp_929" 100
 door game "fluffyspacebugtmp_929" game "fluffyspacebugtmp_930" 100
-door game "fluffyspacebugtmp_930" game "fluffyspacebugtmp_931" 100
 
+door game "fluffyspacebugtmp_930" game "fluffyspacebugtmp_931" 100
 door game "fluffyspacebugtmp_931" game "fluffyspacebugtmp_932" 100
 door game "fluffyspacebugtmp_932" game "fluffyspacebugtmp_933" 100
 door game "fluffyspacebugtmp_933" game "fluffyspacebugtmp_934" 100
@@ -2293,8 +2294,8 @@ door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_940" 100
 door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_941" 100
 door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_942" 100
 door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_943" 100
-door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_944" 100
 
+door game "fluffyspacebugtmp_939" game "fluffyspacebugtmp_944" 100
 door game "fluffyspacebugtmp_940" game "fluffyspacebugtmp_941" 100
 door game "fluffyspacebugtmp_941" game "fluffyspacebugtmp_942" 100
 door game "fluffyspacebugtmp_942" game "fluffyspacebugtmp_943" 100
@@ -2304,8 +2305,8 @@ door game "fluffyspacebugtmp_945" game "fluffyspacebugtmp_950" 100
 door game "fluffyspacebugtmp_946" game "fluffyspacebugtmp_947" 100
 door game "fluffyspacebugtmp_946" game "fluffyspacebugtmp_950" 100
 door game "fluffyspacebugtmp_947" game "fluffyspacebugtmp_948" 100
-door game "fluffyspacebugtmp_951" game "fluffyspacebugtmp_952" 100
 
+door game "fluffyspacebugtmp_951" game "fluffyspacebugtmp_952" 100
 door game "fluffyspacebugtmp_951" game "fluffyspacebugtmp_953" 100
 door game "fluffyspacebugtmp_951" game "fluffyspacebugtmp_955" 100
 door game "fluffyspacebugtmp_952" game "fluffyspacebugtmp_953" 100
@@ -2315,8 +2316,8 @@ door game "fluffyspacebugtmp_953" game "fluffyspacebugtmp_956" 100
 door game "fluffyspacebugtmp_953" game "fluffyspacebugtmp_957" 100
 door game "fluffyspacebugtmp_954" game "fluffyspacebugtmp_957" 100
 door game "fluffyspacebugtmp_954" game "fluffyspacebugtmp_958" 100
-door game "fluffyspacebugtmp_954" game "fluffyspacebugtmp_959" 100
 
+door game "fluffyspacebugtmp_954" game "fluffyspacebugtmp_959" 100
 door game "fluffyspacebugtmp_955" game "fluffyspacebugtmp_956" 100
 door game "fluffyspacebugtmp_956" game "fluffyspacebugtmp_957" 100
 door game "fluffyspacebugtmp_957" game "fluffyspacebugtmp_958" 100
@@ -2689,6 +2690,7 @@ delg "fluffyspacebugtmp_960"
 delg "fluffyspacebugtmp_961"
 delg "fluffyspacebugtmp_962"
 delg "fluffyspacebugtmp_963"
+
 
 
 
