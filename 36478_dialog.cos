@@ -33,6 +33,7 @@ scrp 1 2 36478 1000
 **
 ** Move camera to signpost!
 **
-	cmrp 36622 10176 0
+	rtar 1 3 36475
+	cmrp posx posy 0
 	kill ownr
 endm
