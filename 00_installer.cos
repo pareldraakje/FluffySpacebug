@@ -28,7 +28,7 @@
 *# attach betaship_fav.c16
 *# attach spacemossship.catalogue
 
-*# link 36475_eledoor.cos 36475_signpost_main.cos 36476_signpost_subbiome1.cos 36477_signpost_subbiome2.cos 999999_eledoor_install.cos
+*# link 36475_eledoor.cos 36475_signpost_main.cos 36476_signpost_subbiome1.cos 36477_signpost_subbiome2.cos 999999_eledoor_beta.cos
 
 *# link 36478_dialog.cos
 
