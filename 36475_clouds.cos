@@ -29,6 +29,12 @@ reps 4
 	mesg wrt+ targ 1000 rand 32600 35937 rand 9235 9436 1
 repe
 
+reps 4
+	new: simp 1 1 36475 "betaship_cloud" 1 0 3000
+* ov00: rain (0) or snow (1) cloud
+	setv ov00 0
+	mesg wrt+ targ 1000 rand 33907 35036 rand 8074 8153 1
+repe
 
 reps 4
 	new: simp 1 1 36475 "betaship_cloud" 1 0 3000
