@@ -1,0 +1,147 @@
+
+**
+** ELEVATORS
+**
+
+*
+**
+***
+*** BIOME 2 NAVIGATION
+***
+**
+*
+
+* BOTTOM LEFT
+
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 30499 14332 0
+seta ov00 targ
+seta ov01 targ
+setv va05 grap 30499 14332
+seta va00 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 30499 14747 0
+seta ov00 targ
+seta ov01 targ
+setv va06 grap 30499 14747
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov01 va01
+targ va01
+seta ov00 va00
+
+* MID LEFT
+
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 31558 13334 0
+seta ov00 targ
+seta ov01 targ
+setv va05 grap 31558 13334
+seta va00 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 31558 13861 0
+seta ov00 targ
+seta ov01 targ
+setv va06 grap 31558 13861
+seta va01 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 31558 14344 0
+seta ov00 targ
+seta ov01 targ
+setv va07 grap 31558 14344
+seta va02 targ
+link va05 va06 30
+link va06 va07 30
+targ va00
+seta ov01 va01
+targ va01
+seta ov00 va00
+seta ov01 va02
+targ va02
+seta ov00 va01
+
+* CENTER RIGHT
+
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 33394 13755 0
+seta ov00 targ
+seta ov01 targ
+setv va05 grap 33394 13755
+seta va00 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 33394 14325 0
+seta ov00 targ
+seta ov01 targ
+setv va06 grap 33394 14325
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov01 va01
+targ va01
+seta ov00 va00
+
+
+* RIGHTMOST
+
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 34173 13257 0
+seta ov00 targ
+seta ov01 targ
+setv va05 grap 34173 13257
+seta va00 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 34173 13775 0
+seta ov00 targ
+seta ov01 targ
+setv va06 grap 34173 13775
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov01 va01
+targ va01
+seta ov00 va00
+
+
+* MID
+
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 32413 12558 0
+seta ov00 targ
+seta ov01 targ
+setv va05 grap 32413 12558
+seta va00 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 32166 12820 0
+seta ov00 targ
+seta ov01 targ
+setv va06 grap 32166 12820
+seta va01 targ
+new: simp 3 1 36475 "betaship_eledoor" 1 0 500
+mesg wrt+ targ 1000 32303 13227 0
+seta ov00 targ
+seta ov01 targ
+setv va07 grap 32303 13227
+seta va02 targ
+link va05 va06 30
+link va06 va07 30
+targ va00
+seta ov01 va01
+targ va01
+seta ov00 va00
+seta ov01 va02
+targ va02
+seta ov00 va01
+
+
+
+rscr
+enum 2 2 36475
+	kill targ
+next
+enum 3 1 36475
+	kill targ
+next
+enum 3 2 36475
+	kill targ
+next

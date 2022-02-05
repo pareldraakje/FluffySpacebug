@@ -1,0 +1,48 @@
+
+
+**
+** DOORS
+**
+
+* MAIN SPACEBUG TO BIOME 1
+
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 34727 16634 0
+seta ov00 targ
+setv va05 grap 34727 16634
+seta va00 targ
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 32063 10977 0
+seta ov00 targ
+setv va06 grap 32063 10977
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov00 va01
+targ va01
+seta ov00 va00
+
+
+* MAIN SPACEBUG TO BIOME 2
+
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 32506 14306 0
+seta ov00 targ
+setv va05 grap 32506 14306
+seta va00 targ
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 36923 10941 0
+seta ov00 targ
+setv va06 grap 36923 10941
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov00 va01
+targ va01
+seta ov00 va00
+
+
+rscr
+enum 2 2 36475
+	kill targ
+next
