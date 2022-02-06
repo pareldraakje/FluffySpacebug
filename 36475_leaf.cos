@@ -1,0 +1,144 @@
+**
+** Plant script
+**
+
+
+** Install script
+
+** Big tree
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 33260 10090 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 33874 9755 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 54376 10153 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34167 10474 0
+
+** Small tree
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34530 9427 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34991 9315 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 35305 9762 0
+
+** Upper tree
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 33685 8178 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34279 8108 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34739 8164 0
+
+** Candy cane tree
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 2
+mesg wrt+ targ 1000 37071 8576 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 2
+mesg wrt+ targ 1000 37413 8666 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 2
+mesg wrt+ targ 1000 37155 9001 0
+
+** Cactus leaf
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
+setv name "fruittype" 1
+mesg wrt+ targ 1000 30438 11439 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
+setv name "fruittype" 1
+mesg wrt+ targ 1000 30755 11442 0
+
+
+
+**
+** Creation script
+**
+
+
+scrp 2 6 36475 1000
+	doif abba eq 0
+* Attr: mouseable 2 + collide 64 + physics 128 = 194
+		attr 194
+	else
+		attr 0
+	endi
+* Bhvr: act1 1
+	bhvr 1
+* Set physics attributes
+	accg 2
+	aero 3
+* Set collision attributes
+	perm 100
+	fric 100
+	elas 0
+* emit flower/detritus smell
+	emit 9 0.3
+* Move to the spot if possible
+	doif tmvt _p1_ _p2_ ne 0
+		mvto _p1_ _p2_
+	else
+		kill targ
+	endi
+	tick rand 3 8
+endm
+
+**
+** Activate 1 (push) script
+**
+
+** Plant play
+scrp 2 6 36475 1
+* stim played with plant
+	stim writ from 84 1
+* reset timer script, try to spawn
+	mesg writ ownr 9
+endm
+
+**
+** Timer script
+**
+
+** Plant
+scrp 2 6 36475 9
+	tick rand 400 800
+	doif rand 0 3 eq 3
+		setv va02 posl
+		setv va03 post
+		new: simp 2 11 36475 "fluffyspacebug_fruit" 1 name "fruittype" rand 1200 4000
+		mesg wrt+ targ 1000 va02 va03 1
+		velo rand -5 5 -5
+	endi
+endm
+
+
+
+rscr
+enum 2 6 36475
+	kill targ
+next
