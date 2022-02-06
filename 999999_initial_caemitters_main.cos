@@ -90,7 +90,7 @@ scrp 3 3 36476 1000
 
 * Desert heat
 
-	new: simp 1 1 36476 "blnk" 1 1 100
+	new: simp 1 1 36476 "blnk" 1 0 100
 *		setv ov00 2
 *		setv ov01 0.85
 	emit 2 10
@@ -135,7 +135,7 @@ scrp 3 3 36476 1000
 		mvto va00 va01
 	next
 
-kill ownr
+	kill ownr
 endm
 
 **
