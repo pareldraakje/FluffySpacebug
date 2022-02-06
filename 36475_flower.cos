@@ -1,0 +1,119 @@
+**
+** Flower script
+**
+
+
+** Install script
+
+** lower left sunflowers
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 32199 10240 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 32293 10240 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 32387 10240 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 32510 10240 0
+
+
+** upper sunflowers
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 35045 8429 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 35149 8429 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 35292 8429 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 35422 8429 0
+
+
+** Magic tree flowers
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 33821 11475 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 33908 11475 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 34046 11475 0
+
+
+** Red flowers
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 36398 9837 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 36530 9837 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 36626 9837 0
+
+
+** Arctic lift flower
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 5 rand 1500 400
+mesg wrt+ targ 1000 36001 9484 0
+
+
+** Workshop flower
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 4 rand 1500 400
+mesg wrt+ targ 1000 31034 9362 0
+
+
+**
+** Creation script
+**
+
+** Flower creation
+scrp 2 7 36475 1000
+* Attr: mouseable 2 + collide 64 + physics 128 = 194
+	attr 194
+* Bhvr: act1 1
+	bhvr 1
+* Set physics attributes
+	accg 2
+	aero 3
+* Set collision attributes
+	perm 100
+	fric 100
+	elas 0
+* emit flower smell
+	emit 9 0.3
+* Move to the spot if possible
+	doif tmvt _p1_ _p2_ ne 0
+		mvto _p1_ _p2_
+	else
+		kill targ
+	endi
+	tick rand 3 8
+endm
+
+**
+** Activate 1 (push) script
+**
+
+** Flower play
+scrp 2 7 36475 1
+* stim played with flower
+	stim writ from 84 1
+* reset timer script, try to spawn
+	mesg writ ownr 9
+endm
+
+**
+** Timer script
+**
+
+** Flower
+scrp 2 7 36475 9
+	tick rand 400 800
+	doif rand 0 3 eq 3
+		setv va02 posl
+		setv va03 post
+		new: simp 2 3 36475 "betaship_agents" 1 0 rand 1200 4000
+		mesg wrt+ targ 1000 va02 va03 1
+		velo rand -5 5 -5
+	endi
+endm
+
+
+
+rscr
+enum 2 7 36475
+	kill targ
+next

@@ -1,0 +1,98 @@
+**
+** Plant script
+**
+
+
+** Install script
+
+** Greenhouse  cheese plants
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 2 rand 1500 400
+setv name "foodtype" 1
+mesg wrt+ targ 1000 30321 10690 0
+
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 2 rand 1500 400
+setv name "foodtype" 1
+mesg wrt+ targ 1000 31326 10635 0
+
+** Burrows cake bushes
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 1 rand 1500 400
+setv name "foodtype" 2
+mesg wrt+ targ 1000 32792 10935 0
+
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 1 rand 1500 400
+setv name "foodtype" 2
+mesg wrt+ targ 1000 35423 10942 0
+
+** Mushroom burrows
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 3 rand 1500 400
+setv name "foodtype" 0
+mesg wrt+ targ 1000 35486 11242 0
+
+** Mushroom door
+new: simp 2 4 36475 "fluffyspacebug_plant" 1 3 rand 1500 400
+setv name "foodtype" 0
+mesg wrt+ targ 1000 37106 10928 0
+
+
+**
+** Creation script
+**
+
+
+scrp 2 4 36475 1000
+* Attr: mouseable 2 + collide 64 + physics 128 = 194
+	attr 194
+* Bhvr: act1 1
+	bhvr 1
+* Set physics attributes
+	accg 2
+	aero 3
+* Set collision attributes
+	perm 100
+	fric 100
+	elas 0
+* emit flower/detritus smell
+	emit 9 0.3
+* Move to the spot if possible
+	doif tmvt _p1_ _p2_ ne 0
+		mvto _p1_ _p2_
+	else
+		kill targ
+	endi
+	tick rand 3 8
+endm
+
+**
+** Activate 1 (push) script
+**
+
+** Plant play
+scrp 2 4 36475 1
+* stim played with plant
+	stim writ from 84 1
+* reset timer script, try to spawn
+	mesg writ ownr 9
+endm
+
+**
+** Timer script
+**
+
+** Plant
+scrp 2 4 36475 9
+	tick rand 400 800
+	doif rand 0 3 eq 3
+		setv va02 posl
+		setv va03 post
+		new: simp 2 11 36475 "fluffyspacebug_food" 1 name "foodtype" rand 1200 4000
+		mesg wrt+ targ 1000 va02 va03 1
+		velo rand -5 5 -5
+	endi
+endm
+
+
+
+rscr
+enum 2 4 36475
+	kill targ
+next
