@@ -36,7 +36,7 @@ endm
 
 ** Seed eat
 scrp 2 3 36475 12
-	stim writ from 77 2
+	stim writ from 77 8
 	kill ownr
 endm
 
