@@ -36,7 +36,7 @@ endm
 
 ** Fruit eat
 scrp 2 8 36475 12
-	stim writ from 78 4
+	stim writ from 78 3
 	kill ownr
 endm
 
