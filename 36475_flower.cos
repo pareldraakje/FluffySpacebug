@@ -5,6 +5,21 @@
 
 ** Install script
 
+** Greenhouse flower
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 31477 10324 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 31619 10324 0
+
+** nursery sunflowers
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 36643 10499 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 36796 10503 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 36963 10542 0
+
+
 ** lower left sunflowers
 new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
 mesg wrt+ targ 1000 32199 10240 0
@@ -31,7 +46,14 @@ mesg wrt+ targ 1000 35422 8429 0
 new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
 mesg wrt+ targ 1000 33821 11475 0
 new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
-mesg wrt+ targ 1000 33908 11475 0
+mesg wrt+ targ 1000 33473 11429 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 33821 11475 0
+
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 34336 11500 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
+mesg wrt+ targ 1000 33436 11374 0
 new: simp 2 7 36475 "fluffyspacebug_flower" 1 2 rand 1500 400
 mesg wrt+ targ 1000 34046 11475 0
 
@@ -43,11 +65,23 @@ new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
 mesg wrt+ targ 1000 36530 9837 0
 new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
 mesg wrt+ targ 1000 36626 9837 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 35939 10185 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 0 rand 1500 400
+mesg wrt+ targ 1000 36025 10191 0
+
+** Cave flower
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 4 rand 1500 400
+mesg wrt+ targ 1000 35462 10540 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 4 rand 1500 400
+mesg wrt+ targ 1000 35530 10555 0
 
 
 ** Arctic lift flower
-new: simp 2 7 36475 "fluffyspacebug_flower" 1 5 rand 1500 400
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 4 rand 1500 400
 mesg wrt+ targ 1000 36001 9484 0
+new: simp 2 7 36475 "fluffyspacebug_flower" 1 3 rand 1500 400
+mesg wrt+ targ 1000 36058 9484 0
 
 
 ** Workshop flower

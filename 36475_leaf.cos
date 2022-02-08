@@ -12,7 +12,23 @@ mesg wrt+ targ 1000 33260 10090 0
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
 setv name "fruittype" 0
-mesg wrt+ targ 1000 33874 9755 0
+mesg wrt+ targ 1000 33549 10118 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34234 9761 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34303 10088 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 33717 9694 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 33463 10389 0
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
 setv name "fruittype" 0
@@ -31,6 +47,10 @@ mesg wrt+ targ 1000 34530 9427 0
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
 setv name "fruittype" 0
 mesg wrt+ targ 1000 34991 9315 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 0
+mesg wrt+ targ 1000 34503 9674 0
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
 setv name "fruittype" 0
@@ -62,17 +82,33 @@ mesg wrt+ targ 1000 37413 8666 0
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
 setv name "fruittype" 2
+mesg wrt+ targ 1000 37274 8436 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 2
+mesg wrt+ targ 1000 37366 8940 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 1 rand 1500 400
+setv name "fruittype" 2
 mesg wrt+ targ 1000 37155 9001 0
 
 ** Cactus leaf
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
 setv name "fruittype" 1
-mesg wrt+ targ 1000 30438 11439 0
+mesg wrt+ targ 1000 30418 11478 0
 
 new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
 setv name "fruittype" 1
-mesg wrt+ targ 1000 30755 11442 0
+mesg wrt+ targ 1000 30534 11480 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
+setv name "fruittype" 1
+mesg wrt+ targ 1000 30704 11477 0
+
+new: simp 2 6 36475 "fluffyspacebug_leaf" 1 0 rand 1500 400
+setv name "fruittype" 1
+mesg wrt+ targ 1000 30845 11489 0
 
 
 
