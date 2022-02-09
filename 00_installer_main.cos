@@ -8,9 +8,9 @@
 ** Drop this file on Monk
 ** Profit!
 
-*# Pray-File "fluffyspacebug030.agents"
+*# Pray-File "fluffyspacebug031.agents"
 *# DS-Name "Fluffy Spacebug"
-*# desc = "This is the Fluffy Spacebug v0.3.0-beta! It features a navigation-friendly lay-out with elevators and light/heat CAs."
+*# desc = "This is the Fluffy Spacebug v0.3.1-beta! It features a navigation-friendly lay-out with elevators, light/heat CAs, plants, flowers and leaves which produce fruit, food and seed."
 *# Agent Animation File = "betaship_fav.c16"
 *# Agent Sprite First Image = 1
 *# Agent Animation Gallery = "betaship_fav"
