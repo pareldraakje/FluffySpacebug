@@ -37,7 +37,7 @@
 *# link 36475_dead.cos 36475_eledoor.cos 36475_flower.cos 36475_food.cos 36475_fruit.cos 36475_leaf.cos 36475_plant.cos 36475_seed.cos 
 *# link 36475_signpost_main.cos 
 
-*# link 999999_elevators_main.cos 999999_initial_caemitters_main.cos
+*# link 999999_elevators_main.cos 999999_initial_caemitters_main.cos 999999_doors_maintomeso.cos
 
 *# link 36478_dialog.cos
 

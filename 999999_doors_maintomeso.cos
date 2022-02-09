@@ -1,0 +1,29 @@
+
+
+**
+** DOORS
+**
+
+* MAIN SPACEBUG TO NORN MESO
+
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 36369 10558 0
+seta ov00 targ
+setv va05 grap 36369 10558
+seta va00 targ
+new: simp 2 2 36475 "betaship_eledoor" 1 1 500
+mesg wrt+ targ 1000 1010 9616 0
+seta ov00 targ
+setv va06 grap 1010 9616
+seta va01 targ
+link va05 va06 30
+targ va00
+seta ov00 va01
+targ va01
+seta ov00 va00
+
+
+rscr
+enum 2 2 36475
+	kill targ
+next
